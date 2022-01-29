@@ -30,8 +30,9 @@ public class Problem_2805 {
     private static int binarySearch(int left, int right) {
         int mid = left + (right - left) / 2;
 
-        // 종료 조건
+        // 종료 조건 1
         if (right - left <= 1) {
+            // 종료 조건 2
             if(isHeight(right)) {
                 return right;
             }
