@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Problem_1300 {
+public class Problem_1300_Sol1 {
     private static long N;
     private static long K;
 
