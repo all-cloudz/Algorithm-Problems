@@ -46,7 +46,7 @@ public class Problem_10816_Sol2 {
         return right;
     }
 
-    // UpperBound는 조건을 만족시키는 값 중 최대인 경우 (정확히는 찾고자 하는 최대인 경우보다 index가 하나 더 크다)
+    // UpperBound는 조건을 만족시키는 값 중 최대인 경우 (정확히는 찾고자 하는 최대인 경우보다 index가 하나 더 크다. 따라서 right를 lengh - 1이 아니라 length로 받는 것이 중요하다.)
     private static int binarySearch_UpperBound(int[] nums, int left, int right, int target) {
         int mid = 0;
 
