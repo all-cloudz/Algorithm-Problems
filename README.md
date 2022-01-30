@@ -6,7 +6,9 @@
 ## Solved
 ### Basic
 Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110  
-Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816
+Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816  
+Silver 3 (memoization) : 1003, https://www.acmicpc.net/problem/1003
+
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630
 
