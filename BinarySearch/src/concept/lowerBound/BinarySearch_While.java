@@ -1,4 +1,4 @@
-package lowerBound;
+package concept.lowerBound;
 
 public class BinarySearch_While {
     public static void main(String[] args) {

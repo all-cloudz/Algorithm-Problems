@@ -1,4 +1,4 @@
-package upperBound;
+package concept.upperBound;
 
 public class BinarySearch_Recursive {
     public static void main(String[] args) {

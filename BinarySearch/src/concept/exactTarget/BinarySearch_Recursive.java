@@ -1,4 +1,4 @@
-package exactTarget;
+package concept.exactTarget;
 
 public class BinarySearch_Recursive {
     public static void main(String[] args) {
