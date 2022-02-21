@@ -27,6 +27,7 @@ Gold 2 : 1300, https://www.acmicpc.net/problem/1300
 ### Tree
 #### binary tree
 Silver 1 : 1991, https://www.acmicpc.net/problem/1991
+Gold 5 : 5639, https://www.acmicpc.net/problem/5639
 
 ## Give Up
 ### Non
