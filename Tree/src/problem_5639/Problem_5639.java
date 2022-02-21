@@ -5,8 +5,6 @@ import java.io.InputStreamReader;
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class Problem_5639 {
     private static BufferedWriter output = new BufferedWriter(new OutputStreamWriter(System.out));
