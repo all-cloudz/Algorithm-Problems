@@ -26,8 +26,12 @@ Gold 2 : 1300, https://www.acmicpc.net/problem/1300
 
 ### Tree
 #### binary tree
-Silver 1 : 1991, https://www.acmicpc.net/problem/1991
+Silver 1 : 1991, https://www.acmicpc.net/problem/1991  
 Gold 5 : 5639, https://www.acmicpc.net/problem/5639
+
+### Union Find
+Gold 4 : 1717, https://www.acmicpc.net/problem/1717  
+Gold 4 : 1976, https://www.acmicpc.net/problem/1976
 
 ## Give Up
 ### Non
