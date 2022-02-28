@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/BAEKJOON.iml" filepath="$PROJECT_DIR$/BAEKJOON.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basic/Basic.iml" filepath="$PROJECT_DIR$/Basic/Basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DFS/DFS.iml" filepath="$PROJECT_DIR$/DFS/DFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/DivideAndConquer/DivideAndConquer.iml" filepath="$PROJECT_DIR$/DivideAndConquer/DivideAndConquer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tree/Tree.iml" filepath="$PROJECT_DIR$/Tree/Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnionFind/UnionFind.iml" filepath="$PROJECT_DIR$/UnionFind/UnionFind.iml" />
     </modules>
   </component>
 </project>
