@@ -36,5 +36,8 @@ Gold 5 : 5639, https://www.acmicpc.net/problem/5639
 Gold 4 : 1717, https://www.acmicpc.net/problem/1717  
 Gold 4 : 1976, https://www.acmicpc.net/problem/1976
 
+### Dynamic Programming
+Silver 2 : 9184, https://www.acmicpc.net/problem/9184
+
 ## Give Up
 ### Non
