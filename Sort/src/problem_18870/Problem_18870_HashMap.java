@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 import java.util.HashMap;
 
+// 해시맵을 사용하면 시간복잡도가 n이지만 계수가 상당히 크므로 실제 실행시간은 ArrayList를 사용한 후 binary search를 하는 것 보다 오래 걸릴 수 있다.
 public class Problem_18870_HashMap {
     public static void main(String[] args) throws IOException {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));

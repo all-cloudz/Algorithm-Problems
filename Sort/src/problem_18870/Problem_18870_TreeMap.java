@@ -3,9 +3,12 @@ package problem_18870;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
+
+/* HashMap과 달리 TreeMap은 Red-Black Tree로 구현되어 있으므로 Node를 put하면 알아서 정렬된다.
+ * 즉, key에 대한 순차적 접근이 필요할 때는 TreeMap이 유리하다.
+ * 이 문제는 key에 대한 순차적 접근이 필요하지는 않지만 TreeMap으로 해결하면 다음과 같다. */
 
 public class Problem_18870_TreeMap {
     public static void main(String[] args) throws IOException {
@@ -20,7 +23,6 @@ public class Problem_18870_TreeMap {
             copyNums[i] = nums[i] = Integer.parseInt(tokenizer.nextToken(" "));
         }
 
-        // TreeMap은 Red-Black Tree로 구현되어 있으므로 Node를 put하면 알아서 정렬된다.
         TreeMap<Integer, Integer> map = new TreeMap<>();
 
         for (int i = 0; i < N; i++) {
