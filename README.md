@@ -7,8 +7,7 @@
 ### Basic
 Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110  
 Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816  
-Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002
-Silver 3 (memoization) : 1003, https://www.acmicpc.net/problem/1003  
+Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004
 
 ### Divide and Conquer
@@ -37,6 +36,8 @@ Gold 4 : 1717, https://www.acmicpc.net/problem/1717
 Gold 4 : 1976, https://www.acmicpc.net/problem/1976
 
 ### Dynamic Programming
+#### memoization
+Silver 3 : 1003, https://www.acmicpc.net/problem/1003  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184
 
 ## Give Up
