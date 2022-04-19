@@ -40,5 +40,8 @@ Gold 4 : 1976, https://www.acmicpc.net/problem/1976
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184
 
+#### Longest Increasing Subsequence (LIS)
+Gold 2 : 2352, https://www.acmicpc.net/problem/2352
+
 ## Give Up
 ### Non
