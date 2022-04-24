@@ -45,9 +45,9 @@ public class Problem_15649 {
             if (!visited[i]) {
                 nums[depth] = i + 1;
                 visited[i] = true; // 중복을 허락하지 않으므로 방문했던 요소는 건너뛸 수 있도록 해야 함
+                
                 backtracking(depth + 1); // 깊이를 하나 더 깊게 하여 필요한 요소 탐색
-
-                visited[i] = false; // 백트래킹 과정에서 방문했던 요소를 다시 방문해야 하므로
+                visited[i] = false; // 백트래킹 과정에서 방문했던 요소를 다시 방문해야 하므로 false로 초기화
             }
         }
     }
