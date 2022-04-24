@@ -8,7 +8,8 @@
 Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110  
 Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816  
 Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
-Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004
+Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
+Silver 3 (backtracking) : 15649, https://www.acmicpc.net/problem/15649
 
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630
