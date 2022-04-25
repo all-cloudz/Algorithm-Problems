@@ -56,8 +56,14 @@ Gold 5 : 9251, https://www.acmicpc.net/problem/9251　★★★★★
 ### Non
 
 ## Solved
+### Basic
+Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410　★★★★★
+
 ### Graph
 Lv.1 : 신고 결과 받기, https://programmers.co.kr/learn/courses/30/lessons/92334　★★★★★
+
+### Regular Expression (regex)
+Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410　★★★
 
 ## Give Up
 ### Non
