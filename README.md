@@ -6,46 +6,58 @@
 ## Solved
 ### Basic
 Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110  
-Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816  
+Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816　★★★★★  
 Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004
 
 #### Backtracking
-Silver 3 : 15649, https://www.acmicpc.net/problem/15649  
-Gold 5 : 9663, https://www.acmicpc.net/problem/9663
+Silver 3 : 15649, https://www.acmicpc.net/problem/15649　★★★★★  
+Gold 5 : 9663, https://www.acmicpc.net/problem/9663　★★★★★  
+Gold 4 : 2580, https://www.acmicpc.net/problem/2580　★★★★★
 
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630
 
 ### Binary Search
 #### find target
-Silver 4 : 1920, https://www.acmicpc.net/problem/1920
+Silver 4 : 1920, https://www.acmicpc.net/problem/1920　★★★
 
 #### find max or min
 Silver 4 : 10816, https://www.acmicpc.net/problem/10816  
-Silver 3 : 2805, https://www.acmicpc.net/problem/2805  
-Gold 5 : 2110, https://www.acmicpc.net/problem/2110  
-Gold 2 : 1300, https://www.acmicpc.net/problem/1300
+Silver 3 : 2805, https://www.acmicpc.net/problem/2805　★★★★★  
+Gold 5 : 2110, https://www.acmicpc.net/problem/2110　★★★  
+Gold 2 : 1300, https://www.acmicpc.net/problem/1300　★★
 
 ### Sort
-Silver 2 : 18870, https://www.acmicpc.net/problem/18870
+Silver 2 : 18870, https://www.acmicpc.net/problem/18870　★★★★★
 
 ### Tree
 #### binary tree
-Silver 1 : 1991, https://www.acmicpc.net/problem/1991  
-Gold 5 : 5639, https://www.acmicpc.net/problem/5639
+Silver 1 : 1991, https://www.acmicpc.net/problem/1991　★★★  
+Gold 5 : 5639, https://www.acmicpc.net/problem/5639　★★★★★
 
 ### Union Find
-Gold 4 : 1717, https://www.acmicpc.net/problem/1717  
-Gold 4 : 1976, https://www.acmicpc.net/problem/1976
+Gold 4 : 1717, https://www.acmicpc.net/problem/1717　★★★  
+Gold 4 : 1976, https://www.acmicpc.net/problem/1976　★★★
 
 ### Dynamic Programming
 #### memoization
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003  
-Silver 2 : 9184, https://www.acmicpc.net/problem/9184
+Silver 2 : 9184, https://www.acmicpc.net/problem/9184　★★★★★  
 
 #### Longest Increasing Subsequence (LIS)
-Gold 2 : 2352, https://www.acmicpc.net/problem/2352
+Gold 2 : 2352, https://www.acmicpc.net/problem/2352　★★★★★  
+
+#### Longest Common Subsqeuence (LCS)
+Gold 5 : 9251, https://www.acmicpc.net/problem/9251　★★★★★  
+
+# Programmers
+## Solving
+### Non
+
+## Solved
+### Graph
+Lv.1 : 신고 결과 받기, https://programmers.co.kr/learn/courses/30/lessons/92334　★★★★★
 
 ## Give Up
 ### Non
