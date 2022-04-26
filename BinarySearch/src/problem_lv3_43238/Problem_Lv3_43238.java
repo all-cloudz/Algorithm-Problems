@@ -2,7 +2,7 @@ package problem_lv3_43238;
 
 import java.util.Arrays;
 
-// 구하려는 것 : 총 심사 시간의 최솟값(LBD) ; 과정은 관심 없음
+// 구하려는 것 : 총 심사 시간의 최솟값(LBD) ; 과정은 관심 없음, 그러므로 적합성 검사를 빠르게 하는 것이 관건
 // 핵심 아이디어 : 예상 총 심사 시간 / 심사관의 심사 시간 == 해당 심사관의 총 심사 인원
 public class Problem_Lv3_43238 {
     public static long solution(int n, int[] times) {
