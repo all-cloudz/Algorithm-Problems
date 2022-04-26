@@ -5,7 +5,6 @@ package problem_lv4_43236;
 
 import java.util.Arrays;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.Collectors;
 
 public class Problem_Lv4_43236 {
