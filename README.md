@@ -11,12 +11,12 @@ Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004
 
 #### Backtracking
-Silver 3 : 15649, https://www.acmicpc.net/problem/15649　★★★★★  
-Gold 5 : 9663, https://www.acmicpc.net/problem/9663　★★★★★  
-Gold 4 : 2580, https://www.acmicpc.net/problem/2580　★★★★★
+Silver 3 : 15649 ~ 15652, https://www.acmicpc.net/problem/15649　★★★★★  
+Gold 5 : 9663, https://www.acmicpc.net/problem/9663　★★★  
+Gold 4 : 2580, https://www.acmicpc.net/problem/2580　★★★
 
 ### Divide and Conquer
-Silver 3 : 2630, https://www.acmicpc.net/problem/2630
+Silver 3 : 2630, https://www.acmicpc.net/problem/2630　★★
 
 ### Binary Search
 #### find target
@@ -43,7 +43,7 @@ Gold 4 : 1976, https://www.acmicpc.net/problem/1976　★★★
 ### Dynamic Programming
 #### memoization
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003  
-Silver 2 : 9184, https://www.acmicpc.net/problem/9184　★★★★★  
+Silver 2 : 9184, https://www.acmicpc.net/problem/9184　★★★  
 
 #### Longest Increasing Subsequence (LIS)
 Gold 2 : 2352, https://www.acmicpc.net/problem/2352　★★★★★  
@@ -57,13 +57,17 @@ Gold 5 : 9251, https://www.acmicpc.net/problem/9251　★★★★★
 
 ## Solved
 ### Basic
-Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410　★★★★★
+Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410　★
+
+### Binary Search
+Lv.3 : 입국심사, https://programmers.co.kr/learn/courses/30/lessons/43238　★★★★★
 
 ### Graph
-Lv.1 : 신고 결과 받기, https://programmers.co.kr/learn/courses/30/lessons/92334　★★★★★
+Lv.1 : 신고 결과 받기, https://programmers.co.kr/learn/courses/30/lessons/92334　★★★
 
 ### Regular Expression (regex)
-Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410　★★★
+Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410　★★★★  
+Lv.1 : 숫자 문자열과 영단어, https://programmers.co.kr/learn/courses/30/lessons/81301　★★
 
 ## Give Up
 ### Non
