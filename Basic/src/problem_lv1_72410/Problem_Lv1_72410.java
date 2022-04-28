@@ -28,12 +28,12 @@ public class Problem_Lv1_72410 {
 
         for (int i = 0; i < chars.size(); i++) {
             // 대문자라면 소문자로 변경
-            if ('A' >= chars.get(i) && chars.get(i) <= 'Z') {
+            if ('A' <= chars.get(i) && chars.get(i) <= 'Z') {
                 chars.set(i, (char) (chars.get(i) - 'A' + 'a'));
                 continue;
             }
 
-            if ('a' >= chars.get(i) && chars.get(i) <= 'z') {
+            if ('a' <= chars.get(i) && chars.get(i) <= 'z') {
                 continue;
             }
 

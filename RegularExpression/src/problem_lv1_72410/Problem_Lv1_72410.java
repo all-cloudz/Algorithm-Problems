@@ -61,7 +61,7 @@ public class Problem_Lv1_72410 {
 
         public KakaoIdBuilder longString() {
             if (id.length() > MAX_SIZE) {
-                id = id.substring(0, 15);
+                id = id.substring(0, MAX_SIZE);
             }
 
             return deleteDot();
