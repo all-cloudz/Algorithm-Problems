@@ -1,6 +1,7 @@
 package problem_lv2_60057;
 
-public class Problem_Lv2_60057 {
+// 반복문으로 풀이
+public class Problem_Lv2_60057_Sol1 {
     public static void main(String[] args) {
         System.out.print(solution("aabbaccc"));
     }
@@ -12,7 +13,7 @@ public class Problem_Lv2_60057 {
     private static int minZipLength(String str) {
         int min = str.length();
 
-        for (int i = 1; i < str.length(); i++) {
+        for (int i = 1; i < str.length() / 2 + 1; i++) {
             min = Math.min(min, zipStr(str, i).length());
         }
 
@@ -23,24 +24,24 @@ public class Problem_Lv2_60057 {
         StringBuilder zip = new StringBuilder();
 
         String current = str.substring(0, zipLength);
-        zip.append(current);
-
-        int zipCnt = 1;
+        int repeat = 1;
         int nextStart = zipLength;
+
         while (nextStart <= str.length()) {
-            String next = str.substring(nextStart, Math.min(nextStart + zipLength, str.length()));
+            String next = str.substring(nextStart, Math.min(nextStart += zipLength, str.length()));
 
             if (current.equals(next)) {
-                zipCnt++;
+                repeat++;
             } else {
-                zip.append(zipCnt != 1 ? zipCnt : "");
-                zip.append(next);
-                zipCnt = 1;
+                zip.append(repeat != 1 ? repeat : "");
+                zip.append(current);
+                repeat = 1;
             }
 
             current = next;
-            nextStart += zipLength;
         }
+
+        zip.append(current);
 
         return zip.toString();
     }

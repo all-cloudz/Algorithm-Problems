@@ -57,8 +57,8 @@ Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★★
 
 ## Solved
 ### Basic
-Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410 　★  
-Lv.2 : 문자열 압축, https://programmers.co.kr/learn/courses/30/lessons/60057 　★★
+Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410 　★★  
+Lv.2 (recursive) : 문자열 압축, https://programmers.co.kr/learn/courses/30/lessons/60057 　★★★★
 
 ### Binary Search
 Lv.3 : 입국심사, https://programmers.co.kr/learn/courses/30/lessons/43238 　★★★  
