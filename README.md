@@ -36,7 +36,7 @@ Silver 2 : 18870, https://www.acmicpc.net/problem/18870 　★★★★★
 Silver 1 : 1991, https://www.acmicpc.net/problem/1991 　★★★  
 Gold 5 : 5639, https://www.acmicpc.net/problem/5639 　★★★★★
 
-### Union Find
+#### Union Find
 Gold 4 : 1717, https://www.acmicpc.net/problem/1717 　★★★  
 Gold 4 : 1976, https://www.acmicpc.net/problem/1976 　★★★
 
