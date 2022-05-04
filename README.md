@@ -32,7 +32,7 @@ Gold 2 : 1300, https://www.acmicpc.net/problem/1300 　★★
 Silver 2 : 18870, https://www.acmicpc.net/problem/18870 　★★★★★
 
 ### Tree
-#### binary tree
+#### Binary Tree
 Silver 1 : 1991, https://www.acmicpc.net/problem/1991 　★★★  
 Gold 5 : 5639, https://www.acmicpc.net/problem/5639 　★★★★★
 
@@ -41,7 +41,7 @@ Gold 4 : 1717, https://www.acmicpc.net/problem/1717 　★★★
 Gold 4 : 1976, https://www.acmicpc.net/problem/1976 　★★★
 
 ### Dynamic Programming
-#### memoization
+#### Memoization
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
 
@@ -52,8 +52,12 @@ Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★★
 Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★★
 
 ### Graph
+#### Minimun Spanning Tree (MST)
+Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
+
 #### shortest path
-Glod 5 : 1916, https://www.acmicpc.net/problem/1916 　★★
+Gold 5 : 1916, https://www.acmicpc.net/problem/1916 　★★  
+Gold 4 : 11657, https://www.acmicpc.net/problem/11657 　★★
 
 # Programmers
 ## Solving
