@@ -46,12 +46,15 @@ Silver 3 : 1003, https://www.acmicpc.net/problem/1003
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
 
 #### Longest Increasing Subsequence (LIS)
-Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★★  
+Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★
 
 #### Longest Common Subsqeuence (LCS)
-Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★★
+Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
 
 ### Graph
+#### DFS, BFS
+Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★
+
 #### Minimun Spanning Tree (MST)
 Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
 
