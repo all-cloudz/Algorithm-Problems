@@ -53,7 +53,8 @@ Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
 
 ### Graph
 #### DFS, BFS
-Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★
+Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
+Silver 2 : 11725, https://www.acmicpc.net/problem/11725 　★★★
 
 #### Minimun Spanning Tree (MST)
 Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
