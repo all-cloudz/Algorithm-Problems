@@ -14,6 +14,7 @@ Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004
 Silver 3 : 15649 ~ 15652, https://www.acmicpc.net/problem/15649 　★★★★★  
 Gold 5 : 9663, https://www.acmicpc.net/problem/9663 　★★★  
 Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★
+Silver 1 : 14888, https://www.acmicpc.net/problem/14888 　★★★★★
 
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630 　★★
