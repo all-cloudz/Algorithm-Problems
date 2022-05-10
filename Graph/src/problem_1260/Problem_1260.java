@@ -49,7 +49,7 @@ public class Problem_1260 {
             int head = Integer.parseInt(tokenizer.nextToken());
             int tail = Integer.parseInt(tokenizer.nextToken());
 
-            Vertex.connectCompleteEdge(graph, head, tail);
+            Vertex.addCompleteEdge(graph, head, tail);
         }
 
         System.out.println(dfs(graph, V));
