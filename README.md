@@ -30,6 +30,8 @@ Gold 5 : 2110, https://www.acmicpc.net/problem/2110 　★★★
 Gold 2 : 1300, https://www.acmicpc.net/problem/1300 　★★
 
 ### Sort
+Bronze 1 : 2750, https://www.acmicpc.net/problem/2750 　★★  
+Silver 5 : 2751, https://www.acmicpc.net/problem/2751 　★★★★★  
 Silver 2 : 18870, https://www.acmicpc.net/problem/18870 　★★★★★
 
 ### Tree
