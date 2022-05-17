@@ -9,6 +9,8 @@ import java.util.StringTokenizer;
 import java.util.ArrayList;
 
 public class Problem_18870_ArrayList {
+    private static int[] sorted;
+
     public static void main(String[] args) throws IOException {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter output = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -22,7 +24,7 @@ public class Problem_18870_ArrayList {
             copyNums[i] = nums[i] = Integer.parseInt(tokenizer.nextToken());
         }
 
-        motQuickSort(nums); // 이 부분을 Arrays.sort(nums)로 바꾸면 통과...
+        mergeSort(nums);
 
         ArrayList<Integer> compress = new ArrayList<>();
         compress.add(nums[0]);
@@ -41,64 +43,41 @@ public class Problem_18870_ArrayList {
         input.close();
     }
 
-    private static void motQuickSort(int[] nums) {
-        leftPivotSort(nums, 0, nums.length - 1);
+    private static void mergeSort(int[] nums) {
+        sorted = new int[nums.length];
+        mergeSort(nums, 0, nums.length - 1);
+        sorted = null;
     }
 
-    private static void leftPivotSort(int[] nums, int left, int right) {
+    private static void mergeSort(int[] nums, int left, int right) {
         if (left >= right) {
             return;
         }
 
-        int pivotPos = partition(nums, left, right);
+        int mid = left + (right - left >> 1);
 
-        leftPivotSort(nums, left, pivotPos - 1);
-        leftPivotSort(nums, pivotPos + 1, right);
+        mergeSort(nums, left, mid);
+        mergeSort(nums, mid + 1, right);
+
+        merge(nums, left, mid, right);
     }
 
-    private static int partition(int[] nums, int left, int right) {
-        int pivotPos = medianOfThree(nums, left, right);
-        int pivot = nums[pivotPos];
+    private static void merge(int[] nums, int left, int mid, int right) {
+        int l = left;
+        int r = mid + 1;
+        int idx = left;
 
-        while (left < right) {
-            while (pivot < nums[right]) {
-                right--;
-            }
-
-            while (left < right && pivot >= nums[left]) {
-                left++;
-            }
-
-            swap(nums, left, right);
+        while (l <= mid && r <= right) {
+            sorted[idx++] = (nums[l] <= nums[r]) ? nums[l++] : nums[r++];
         }
 
-        swap(nums, pivotPos, right);
-
-        return right;
-    }
-
-    private static int medianOfThree(int[] nums, int left, int right) {
-        int mid = left + ((right - left) >> 1);
-
-        if (nums[right] > nums[mid]) {
-            swap(nums, right, mid);
+        if (l <= mid) {
+            System.arraycopy(nums, l, sorted, idx, mid - l + 1);
+        } else {
+            System.arraycopy(nums, r, sorted, idx, right - r + 1);
         }
 
-        if (nums[right] > nums[left]) {
-            swap(nums, right, left);
-        }
-
-        if (nums[left] > nums[mid]) {
-            swap(nums, left, mid);
-        }
-
-        return left;
-    }
-
-    private static void swap(int[] nums, int i, int j) {
-        int tmp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tmp;
+        System.arraycopy(sorted, left, nums, left, right - left + 1);
     }
 
     private static int binarySearch(ArrayList<Integer> nums, int target) {
