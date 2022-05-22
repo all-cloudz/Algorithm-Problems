@@ -54,6 +54,9 @@ Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★
 #### Longest Common Subsqeuence (LCS)
 Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
 
+### Greedy
+Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★
+
 ### Graph
 #### DFS, BFS
 Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
