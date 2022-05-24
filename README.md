@@ -9,7 +9,8 @@ Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110
 Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816 　★★★★★  
 Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
 Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★  
-Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004
+Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
+Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★
 
 
 #### Backtracking
@@ -44,6 +45,9 @@ Gold 5 : 5639, https://www.acmicpc.net/problem/5639 　★★★★★
 #### Union Find
 Gold 4 : 1717, https://www.acmicpc.net/problem/1717 　★★★  
 Gold 4 : 1976, https://www.acmicpc.net/problem/1976 　★★★
+
+#### DFS, BFS
+Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★
 
 ### Dynamic Programming
 #### Memoization
