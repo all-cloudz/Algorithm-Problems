@@ -13,7 +13,7 @@ Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004
 #### Backtracking
 Silver 3 : 15649 ~ 15652, https://www.acmicpc.net/problem/15649 　★★★★★  
 Gold 5 : 9663, https://www.acmicpc.net/problem/9663 　★★★  
-Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★
+Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★  
 Silver 1 : 14888, https://www.acmicpc.net/problem/14888 　★★★★★
 
 ### Divide and Conquer
@@ -49,13 +49,16 @@ Silver 3 : 1003, https://www.acmicpc.net/problem/1003
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
 
 #### Longest Increasing Subsequence (LIS)
+Gold 4 : 14002, https://www.acmicpc.net/problem/14002 　★★★★★  
 Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★
 
 #### Longest Common Subsqeuence (LCS)
 Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
 
 ### Greedy
-Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★
+Silver 3 : 11047, https://www.acmicpc.net/problem/11047 　★★  
+Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★  
+Gold 5 : 19940, https://www.acmicpc.net/problem/19940 　★★★
 
 ### Graph
 #### DFS, BFS
