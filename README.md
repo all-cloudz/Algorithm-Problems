@@ -8,7 +8,9 @@
 Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110  
 Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816 　★★★★★  
 Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
+Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★  
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004
+
 
 #### Backtracking
 Silver 3 : 15649 ~ 15652, https://www.acmicpc.net/problem/15649 　★★★★★  
