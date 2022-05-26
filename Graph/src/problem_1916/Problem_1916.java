@@ -64,11 +64,19 @@ public class Problem_1916 {
         while (!open.isEmpty()) {
             Vertex current = open.poll();
 
+            if (arrive == current.label) {
+                break;
+            }
+
             if (visited.contains(current.label)) {
                 continue;
             }
 
             for (Vertex neighbor : graph.get(current.label)) {
+                if (visited.contains(neighbor.label)) {
+                    continue;
+                }
+
                 int minDist = dists.get(neighbor.label);
                 int newDist = dists.get(current.label) + neighbor.weight;
 
