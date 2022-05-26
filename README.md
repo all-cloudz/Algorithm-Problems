@@ -75,7 +75,8 @@ Silver 2 : 11725, https://www.acmicpc.net/problem/11725 　★★★
 Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
 
 #### shortest path
-Gold 5 : 1916, https://www.acmicpc.net/problem/1916 　★★  
+Gold 5 : 1753, https://www.acmicpc.net/problem/1753 　★★★  
+Gold 5 : 1916, https://www.acmicpc.net/problem/1916 　★★★  
 Gold 4 : 11657, https://www.acmicpc.net/problem/11657 　★★
 
 # Programmers
