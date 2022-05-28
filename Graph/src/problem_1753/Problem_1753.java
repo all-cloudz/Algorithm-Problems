@@ -1,4 +1,4 @@
-package problem_1916.problem_1753;
+package problem_1753;
 
 import java.io.*;
 import java.util.*;
