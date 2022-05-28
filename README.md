@@ -74,7 +74,7 @@ Silver 2 : 11725, https://www.acmicpc.net/problem/11725 　★★★
 #### Minimun Spanning Tree (MST)
 Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
 
-#### shortest path
+#### The Shortest Path
 Gold 5 : 1753, https://www.acmicpc.net/problem/1753 　★★★  
 Gold 5 : 1916, https://www.acmicpc.net/problem/1916 　★★★  
 Gold 4 : 11657, https://www.acmicpc.net/problem/11657 　★★
@@ -86,6 +86,7 @@ Gold 4 : 11657, https://www.acmicpc.net/problem/11657 　★★
 ## Solved
 ### Basic
 Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410 　★★  
+Lv.1 (stack) : 크레인 인형뽑기 게임, https://programmers.co.kr/learn/courses/30/lessons/64061 　★  
 Lv.2 (recursive) : 문자열 압축, https://programmers.co.kr/learn/courses/30/lessons/60057 　★★★★
 
 ### Binary Search
