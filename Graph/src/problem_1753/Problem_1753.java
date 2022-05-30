@@ -28,7 +28,7 @@ public class Problem_1753 {
                 return true;
             }
 
-            if (o == null || !(o instanceof Vertex)) {
+            if (!(o instanceof Vertex)) {
                 return false;
             }
 
