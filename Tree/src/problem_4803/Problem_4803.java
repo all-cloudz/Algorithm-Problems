@@ -19,7 +19,7 @@ public class Problem_4803 {
                 break;
             }
 
-            DisjointSet set = new DisjointSet(N);
+            DisjointSet disjointSet = new DisjointSet(N);
 
             final int M = Integer.parseInt(tokenizer.nextToken());
             for (int i = 0; i < M; i++) {
@@ -28,43 +28,53 @@ public class Problem_4803 {
                 int node1 = Integer.parseInt(tokenizer.nextToken());
                 int node2 = Integer.parseInt(tokenizer.nextToken());
 
-                set.union(node1, node2);
+                disjointSet.union(node1, node2);
             }
 
-            Set<Integer> rootSet = new HashSet<>();
-            for (int i = 1; i <= N; i++) {
-                if (set.getParent(set.find(i)) == DisjointSet.INF) {
-                    continue;
-                }
-
-                rootSet.add(set.find(i));
-            }
-
-            int treeNum = rootSet.size();
-            if (treeNum == 0) {
-                answer.append("Case ").append(caseIdx++).append(": No trees.\n");
-                continue;
-            }
-
-            if (treeNum == 1) {
-                answer.append("Case ").append(caseIdx++).append(": There is one tree.\n");
-                continue;
-            }
-
-            if (treeNum > 1) {
-                answer.append("Case ").append(caseIdx++).append(": A forest of ").append(treeNum).append(" trees.\n");
-                continue;
-            }
+            cntTrees(getRootSet(disjointSet), caseIdx++);
         }
 
         System.out.print(answer);
+    }
+
+    private static Set<Integer> getRootSet(DisjointSet disjointSet) {
+        int N = disjointSet.getSize();
+
+        Set<Integer> rootSet = new HashSet<>();
+        for (int i = 1; i <= N; i++) {
+            if (disjointSet.getParent(disjointSet.find(i)) == DisjointSet.INF) {
+                continue;
+            }
+
+            rootSet.add(disjointSet.find(i));
+        }
+
+        return rootSet;
+    }
+
+    private static void cntTrees(Set<Integer> treeSet, int caseIdx) {
+        int treeNum = treeSet.size();
+        if (treeNum == 0) {
+            answer.append("Case ").append(caseIdx).append(": No trees.\n");
+            return;
+        }
+
+        if (treeNum == 1) {
+            answer.append("Case ").append(caseIdx).append(": There is one tree.\n");
+            return;
+        }
+
+        if (treeNum > 1) {
+            answer.append("Case ").append(caseIdx).append(": A forest of ").append(treeNum).append(" trees.\n");
+            return;
+        }
     }
 }
 
 class DisjointSet {
     private static class Node {
         private int parent;
-        private int size;
+        private int size; // 자신과 자식 노드의 총합
 
         public Node(int parent) {
             this.parent = parent;
@@ -79,20 +89,27 @@ class DisjointSet {
     public static final int INF = Integer.MAX_VALUE;
 
     private Node[] trees;
-
-    public Node[] getTrees() {
-        return this.trees;
-    }
-    public int getParent(int idx) {
-        return this.trees[idx].getParent();
-    }
+    private int size;
 
     public DisjointSet(int nodeNum) {
+        this.size = nodeNum;
         trees = new Node[nodeNum + 1];
 
         for (int i = 1; i <= nodeNum; i++) {
             trees[i] = new Node(i);
         }
+    }
+
+    public Node[] getTrees() {
+        return this.trees;
+    }
+
+    public int getSize() {
+        return this.size;
+    }
+
+    public int getParent(int idx) {
+        return this.trees[idx].getParent();
     }
 
     public int find(int node) {
