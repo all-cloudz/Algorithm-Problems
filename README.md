@@ -48,7 +48,7 @@ Gold 5 : 5639, https://www.acmicpc.net/problem/5639 　★★★★★
 #### Union Find
 Gold 4 : 1717, https://www.acmicpc.net/problem/1717 　★★★  
 Gold 4 : 1976, https://www.acmicpc.net/problem/1976 　★★★  
-Gold 4 : 4803, https://www.acmicpc.net/problem/4803 　★★★
+Gold 4 : 4803, https://www.acmicpc.net/problem/4803 　★★★★★
 
 #### DFS, BFS
 Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★

@@ -3,7 +3,7 @@ package problem_4803;
 import java.io.*;
 import java.util.*;
 
-public class Problem_4803 {
+public class Problem_4803_Union_Find {
     private static StringBuilder answer = new StringBuilder();
 
     public static void main(String[] args) throws IOException {
