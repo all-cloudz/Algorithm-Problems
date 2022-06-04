@@ -79,9 +79,11 @@ Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★
 
 #### The Shortest Path
 Gold 5(Dijkstra) : 1753, https://www.acmicpc.net/problem/1753 　★★★★  
-Gold 5(Dijkstra) : 1916, https://www.acmicpc.net/problem/1916 　★★★  
+Gold 5(Dijkstra) : 1916, https://www.acmicpc.net/problem/1916 　★★★    
+Gold 4(Dijkstra) : 1504, https://www.acmicpc.net/problem/1504 　★★  
 Gold 4(Bellman-Ford) : 11657, https://www.acmicpc.net/problem/11657 　★★★★  
 Gold 4(Floyd-Warshall) : 11404, https://www.acmicpc.net/problem/11404 　★★★★  
+Gold 4(Floyd-Warshall) : 1956, https://www.acmicpc.net/problem/11404 　★★★  
 Gold 1(Floyd-Warshall) : 23258, https://www.acmicpc.net/problem/23258 　★★
 
 # Programmers
