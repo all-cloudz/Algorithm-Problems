@@ -12,7 +12,6 @@ Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
 Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★
 
-
 #### Backtracking
 Silver 3 : 15649 ~ 15652, https://www.acmicpc.net/problem/15649 　★★★★★  
 Gold 5 : 9663, https://www.acmicpc.net/problem/9663 　★★★  
