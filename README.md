@@ -66,6 +66,7 @@ Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
 
 ### Greedy
 Silver 3 : 11047, https://www.acmicpc.net/problem/11047 　★★  
+Silver 1 : 1931, https://www.acmicpc.net/problem/1931 　★★★  
 Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★  
 Gold 5 : 19940, https://www.acmicpc.net/problem/19940 　★★★
 
