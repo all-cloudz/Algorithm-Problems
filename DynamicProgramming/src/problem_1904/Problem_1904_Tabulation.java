@@ -3,7 +3,7 @@ package problem_1904;
 import java.io.*;
 
 public class Problem_1904_Tabulation {
-    private static final int DIVIDER = 15746;
+    private static final int DIVISOR = 15746;
 
     private static int[] tabulate;
 
@@ -25,7 +25,7 @@ public class Problem_1904_Tabulation {
         tabulate[2] = 2;
 
         for (int i = 3; i <= N; i++) {
-            tabulate[i] = (tabulate[i - 1] + tabulate[i - 2]) % DIVIDER;
+            tabulate[i] = (tabulate[i - 1] + tabulate[i - 2]) % DIVISOR;
         }
 
         return tabulate[N];
