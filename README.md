@@ -9,6 +9,7 @@ Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110
 Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816 　★★★★★  
 Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
 Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★  
+Silver 4 (brute force) : 1018, https://www.acmicpc.net/problem/1018 　★★★  
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
 Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★
 
