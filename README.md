@@ -9,6 +9,7 @@ Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110
 Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816 　★★★★★  
 Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
 Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★  
+Silver 4 (brute force) : 1018, https://www.acmicpc.net/problem/1018 　★★★  
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
 Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★
 
@@ -34,6 +35,7 @@ Gold 2 : 1300, https://www.acmicpc.net/problem/1300 　★★
 ### Sort
 Bronze 1 : 2750, https://www.acmicpc.net/problem/2750 　★★  
 Silver 5 : 2751, https://www.acmicpc.net/problem/2751 　★★★★★  
+Silver 3 : 3273, https://www.acmicpc.net/problem/3273 　★  
 Silver 2 : 18870, https://www.acmicpc.net/problem/18870 　★★★★★
 
 ### Tree
@@ -54,7 +56,9 @@ Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★
 
 ### Dynamic Programming
 #### Memoization
-Silver 3 : 1003, https://www.acmicpc.net/problem/1003  
+Bronze 1 : 24416, https://www.acmicpc.net/problem/24416 　★★   
+Silver 3 : 1003, https://www.acmicpc.net/problem/1003 　★★  
+Silver 3 : 1904, https://www.acmicpc.net/problem/1904 　★★★  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
 
 #### Longest Increasing Subsequence (LIS)
