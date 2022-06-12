@@ -31,7 +31,6 @@ public class Problem_1904_Memoization {
             return memoize[N];
         }
 
-        memoize[N] = (count(N - 1) + count(N - 2)) % DIVISOR;
-        return memoize[N];
+        return memoize[N] = (count(N - 1) + count(N - 2)) % DIVISOR;
     }
 }
