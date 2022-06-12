@@ -59,6 +59,7 @@ Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★
 Bronze 1 : 24416, https://www.acmicpc.net/problem/24416 　★★   
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003 　★★  
 Silver 3 : 1904, https://www.acmicpc.net/problem/1904 　★★★  
+Silver 3 : 9461, https://www.acmicpc.net/problem/9461 　★★  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
 
 #### Longest Increasing Subsequence (LIS)
