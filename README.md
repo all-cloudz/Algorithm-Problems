@@ -81,6 +81,9 @@ Gold 5 : 19940, https://www.acmicpc.net/problem/19940 　★★★
 #### DFS, BFS
 Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
 
+#### Topological Sort
+Gold 3 : 2252, https://www.acmicpc.net/problem/2252 　★★★  
+
 #### Minimun Spanning Tree (MST)
 Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
 
