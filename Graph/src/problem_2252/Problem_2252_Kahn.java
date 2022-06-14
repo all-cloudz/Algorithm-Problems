@@ -3,7 +3,7 @@ package problem_2252;
 import java.io.*;
 import java.util.*;
 
-public class Problem_2252_Khan {
+public class Problem_2252_Kahn {
     private static class Graph {
         private List<Integer>[] adjList;
         private int[] inDegree;
@@ -51,28 +51,28 @@ public class Problem_2252_Khan {
     }
 
     private static void sortTopologically(Graph graph) {
-        Queue<Integer> sorted = new LinkedList<>();
+        Queue<Integer> vertices = new LinkedList<>();
 
         // 가장 먼저 진입 차수가 0인 정점을 큐에 삽입
         for (int i = 1; i <= graph.size; i++) {
             if (graph.inDegree[i] == 0) {
-                sorted.offer(i);
+                vertices.offer(i);
             }
         }
 
         for (int i = 1; i <= graph.size; i++) {
-            if (sorted.isEmpty()) {
+            if (vertices.isEmpty()) {
                 System.out.print("Has Cycle");
                 System.exit(1);
             }
 
-            int cur = sorted.poll();
+            int cur = vertices.poll();
             answer.append(cur).append(' ');
 
             // cur에서 next로 진입하는 것을 제거했을 때 진입차수가 0이면 큐에 삽입
             for (int next : graph.adjList[cur]) {
                 if (--graph.inDegree[next] == 0) {
-                    sorted.offer(next);
+                    vertices.offer(next);
                 }
             }
         }
