@@ -105,27 +105,33 @@ public class Problem_1753 {
 
     private static void dijkstra(Graph graph, int depart) {
         HashMap<Integer, Integer> dists = new HashMap<>();
+        
+        // 1. 시작 지점을 제외하고 시작 지점으로부터의 거리를 INF로 초기화
         for (int i = 1; i <= graph.size; i++) {
             dists.put(i, Integer.MAX_VALUE);
         }
         dists.put(depart, 0);
 
+        // 2. 우선순위 큐에 시작 지점을 담는다. 이때, weight는 시작 지점으로부터의 거리를 의미한다.
         PriorityQueue<Vertex> vertices = new PriorityQueue<>();
         vertices.add(new Vertex(depart, 0));
 
+        // 3. 우선순위 큐가 빌때까지 다음을 반복한다.
         while (!vertices.isEmpty()) {
             Vertex current = vertices.poll();
 
-            // 한 번이라도 큐에서 제거되었다면 반드시 최단 거리를 저장하고 있다.
+            // 사전에 한 번이라도 큐에서 제거되었다면 반드시 최단 거리를 저장하고 있다.
             if (current.weight > dists.get(current.data)) {
                 continue;
             }
 
+            // 우선순위 큐에서 제거한 정점의 이웃에 대하여 다음을 반복한다.
             for (Vertex next : graph.adjList.get(new Vertex(current.data))) {
+                // 이웃까지의 거리를 더 짧은 것으로 갱신한다.
                 int minDist = dists.get(next.data);
                 int newDist = dists.get(current.data) + next.weight;
 
-                // 한 번이라도 큐에서 제거되었다면 반드시 최단 거리를 저장하고 있다.
+                // 한 번이라도 큐에서 제거되었다면 이미 최단 거리를 저장하고 있다.
                 if (minDist > newDist) {
                     dists.put(next.data, newDist);
                     vertices.add(new Vertex(next.data, newDist));
