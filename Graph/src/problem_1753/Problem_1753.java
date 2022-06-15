@@ -105,7 +105,7 @@ public class Problem_1753 {
 
     private static void dijkstra(Graph graph, int depart) {
         HashMap<Integer, Integer> dists = new HashMap<>();
-        
+
         // 1. 시작 지점을 제외하고 시작 지점으로부터의 거리를 INF로 초기화
         for (int i = 1; i <= graph.size; i++) {
             dists.put(i, Integer.MAX_VALUE);
