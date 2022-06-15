@@ -38,9 +38,7 @@ public class Problem_11066 {
     private static void combineCost() {
         for (int from = K - 1; from >= 1; from--) {
             for (int to = from + 1; to <= K; to++) {
-                if (tabulate[from][to] == 0) {
-                    tabulate[from][to] = Integer.MAX_VALUE;
-                }
+                tabulate[from][to] = Integer.MAX_VALUE;
 
                 for (int waypoint = from; waypoint < to; waypoint++) {
                     tabulate[from][to] = Math.min(tabulate[from][to], tabulate[from][waypoint] + tabulate[waypoint + 1][to] + sum(from, to)) ;

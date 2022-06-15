@@ -54,9 +54,7 @@ public class Problem_11066_Knuth {
 
         for (int from = K - 1; from >= 1; from--) {
             for (int to = from + 1; to <= K; to++) {
-                if (tabulate[from][to] == 0) {
-                    tabulate[from][to] = Integer.MAX_VALUE;
-                }
+                tabulate[from][to] = Integer.MAX_VALUE;
 
                 for (int optIndex = optIndices[from][to - 1]; optIndex <= optIndices[from + 1][to]; optIndex++) {
                     // 2차원 배열 tabulate의 길이를 K+2로 하면 tabulate[optIndex + 1][to]에서 ArrayIndexOutOfBoundsException을 피할 수 있다.
