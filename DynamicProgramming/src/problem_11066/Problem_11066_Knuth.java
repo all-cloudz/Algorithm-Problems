@@ -59,6 +59,7 @@ public class Problem_11066_Knuth {
                 }
 
                 for (int optIndex = optIndices[from][to - 1]; optIndex <= optIndices[from + 1][to]; optIndex++) {
+                    // 2차원 배열 tabulate의 길이를 K+2로 하면 tabulate[optIndex + 1][to]에서 ArrayIndexOutOfBoundsException을 피할 수 있다.
                     if (optIndex == K) {
                         break;
                     }
