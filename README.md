@@ -56,12 +56,13 @@ Gold 4 : 4803, https://www.acmicpc.net/problem/4803 　★★★★★
 Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★
 
 ### Dynamic Programming
-#### Memoization
+#### Recurrence Relation
 Bronze 1 : 24416, https://www.acmicpc.net/problem/24416 　★★   
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003 　★★  
 Silver 3 : 1904, https://www.acmicpc.net/problem/1904 　★★★  
 Silver 3 : 9461, https://www.acmicpc.net/problem/9461 　★★  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
+Gold 3 : 11066, https://www.acmicpc.net/problem/11066 　★★★★★
 
 #### Longest Increasing Subsequence (LIS)
 Gold 4 : 14002, https://www.acmicpc.net/problem/14002 　★★★★★  
@@ -73,9 +74,10 @@ Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
 ### Greedy
 Silver 4 : 11399, https://www.acmicpc.net/problem/11399 　★★  
 Silver 3 : 11047, https://www.acmicpc.net/problem/11047 　★★  
-Silver 1 : 1931, https://www.acmicpc.net/problem/1931 　★★★  
-Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★  
-Gold 5 : 19940, https://www.acmicpc.net/problem/19940 　★★★
+Silver 1 : 1931, https://www.acmicpc.net/problem/1931 　★★★   
+Gold 5 : 19940, https://www.acmicpc.net/problem/19940 　★★★  
+Gold 4 : 13975, https://www.acmicpc.net/problem/13975 　★★  
+Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★
 
 ### Graph
 #### DFS, BFS
