@@ -105,13 +105,16 @@ Gold 1(Floyd-Warshall) : 23258, https://www.acmicpc.net/problem/23258 　★★
 
 ## Solved
 ### Basic
-Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410 　★★  
+Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410 　★★
 Lv.1 (stack) : 크레인 인형뽑기 게임, https://programmers.co.kr/learn/courses/30/lessons/64061 　★  
 Lv.2 (recursive) : 문자열 압축, https://programmers.co.kr/learn/courses/30/lessons/60057 　★★★★
 
 ### Binary Search
 Lv.3 : 입국심사, https://programmers.co.kr/learn/courses/30/lessons/43238 　★★★  
 Lv.4 : 징검다리, https://programmers.co.kr/learn/courses/30/lessons/43236 　★★★
+
+### Sort
+Lv.1 : K번째 수, https://programmers.co.kr/learn/courses/30/lessons/42748 　★★★
 
 ### Graph
 Lv.1 : 신고 결과 받기, https://programmers.co.kr/learn/courses/30/lessons/92334 　★★★
