@@ -24,6 +24,7 @@ public class Problem_2580 {
     }
 
     private static void backtracking(int depth, int col) throws IOException { // row를 기준으로 depth를 측정
+        // 종료 조건 : 스도쿠의 9번째 행까지(depth의 값이 8이 될 때까지) 탐색을 무사히 마쳤다면 숫자를 무사히 다 채운 것이므로 종료
         if (depth == 9) {
             BufferedWriter answer = new BufferedWriter(new OutputStreamWriter(System.out));
 
@@ -40,11 +41,13 @@ public class Problem_2580 {
             // 그 결과 스도쿠를 완성시키는 모든 경우를 출력하게 된다.
         }
 
+        // 스도쿠에서 현재 탐색하던 row를 모두 방문했다면 다음 row로 이동
         if (col == 9) {
             backtracking(depth + 1, 0);
             return;
         }
 
+        // 스도쿠에 비워진 칸이 있다면 적절한 값을 채우고 옆의 col로 이동
         if (puzzle[depth][col] == 0) {
             for (int j = 0; j < 9; j++) {
                 if (isPossible(depth, col, j + 1)) {
@@ -59,6 +62,7 @@ public class Problem_2580 {
         }
     }
 
+    // 스도쿠의 빈 칸에 특정 값을 넣을 수 있는지 확인
     private static boolean isPossible(int row, int col, int value) {
         for (int i = 0; i < 9; i++) {
             if (puzzle[row][i] == value || puzzle[i][col] == value) {
