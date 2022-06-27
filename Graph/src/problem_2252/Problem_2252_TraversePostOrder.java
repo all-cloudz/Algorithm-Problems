@@ -54,17 +54,15 @@ public class Problem_2252_TraversePostOrder {
         Stack<Integer> sorted = new Stack<>();
 
         for (int i = 1; i <= graph.size; i++) {
-            sortTopologically(graph, i, discovered, sorted);
+            if (!discovered[i]){
+                sortTopologically(graph, i, discovered, sorted);
+            }
         }
 
         return sorted;
     }
 
     private static void sortTopologically(Graph graph, int cur, boolean[] discovered, Stack<Integer> sorted) {
-        if (discovered[cur]) {
-            return;
-        }
-
         discovered[cur] = true;
 
         for (Integer next : graph.adjList[cur]) {
