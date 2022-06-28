@@ -15,7 +15,7 @@ public class Problem_Lv1_42748_MergeSort {
             mergeSort(nums);
             answer[i] = nums[pos];
         }
-
+        
         return answer;
     }
 
