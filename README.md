@@ -13,7 +13,7 @@ Silver 4 (brute force) : 1018, https://www.acmicpc.net/problem/1018 　★★★
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
 Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★
 Silver 2 (priority queue) : 11279, https://www.acmicpc.net/problem/11279 　★★★  
-Silver 2 (prioity queue) : 1927, https://www.acmicpc.net/problem/1927 　★★
+Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★
 
 #### Backtracking
 Silver 3 : 15649 ~ 15652, https://www.acmicpc.net/problem/15649 　★★★★★  
@@ -79,7 +79,8 @@ Silver 3 : 11047, https://www.acmicpc.net/problem/11047 　★★
 Silver 1 : 1931, https://www.acmicpc.net/problem/1931 　★★★   
 Gold 5 : 19940, https://www.acmicpc.net/problem/19940 　★★★  
 Gold 4 : 13975, https://www.acmicpc.net/problem/13975 　★★  
-Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★
+Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★  
+Gold 2 : 1781, https://www.acmicpc.net/problem/1781 　★★★★★
 
 ### Graph
 #### DFS, BFS
