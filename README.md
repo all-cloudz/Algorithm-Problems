@@ -22,6 +22,9 @@ Silver 1 : 14888, https://www.acmicpc.net/problem/14888 　★★★★★
 Gold 5 : 9663, https://www.acmicpc.net/problem/9663 　★★★  
 Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★
 
+#### Implementation
+Silver 3 : 15501, https://www.acmicpc.net/problem/15501 　★★
+
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630 　★★
 
