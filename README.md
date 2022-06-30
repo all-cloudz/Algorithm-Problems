@@ -6,6 +6,8 @@
 ## Solved
 ### Basic
 Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110  
+Bronze 2 (string) : 5622, https://www.acmicpc.net/problem/5622  
+Silver 5 (string) : 1316, https://www.acmicpc.net/problem/1316  
 Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816 　★★★★★  
 Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
 Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★  
