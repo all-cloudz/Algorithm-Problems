@@ -13,7 +13,7 @@ Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002
 Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★  
 Silver 4 (brute force) : 1018, https://www.acmicpc.net/problem/1018 　★★★  
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
-Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★
+Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★  
 Silver 2 (priority queue) : 11279, https://www.acmicpc.net/problem/11279 　★★★  
 Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★
 
@@ -113,7 +113,7 @@ Gold 1(Floyd-Warshall) : 23258, https://www.acmicpc.net/problem/23258 　★★
 
 ## Solved
 ### Basic
-Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410 　★★
+Lv.1 : 신규 아이디 추천, https://programmers.co.kr/learn/courses/30/lessons/72410 　★★  
 Lv.1 (stack) : 크레인 인형뽑기 게임, https://programmers.co.kr/learn/courses/30/lessons/64061 　★  
 Lv.2 (recursive) : 문자열 압축, https://programmers.co.kr/learn/courses/30/lessons/60057 　★★★★
 
@@ -133,3 +133,11 @@ Lv.1 : 숫자 문자열과 영단어, https://programmers.co.kr/learn/courses/30
 
 ## Give Up
 ### Non
+
+# SW Expert Academy
+## Solving
+### Non
+
+## Solved
+### Graph
+D4 : 1249, https://han.gl/eVHPZ 　★★★★
