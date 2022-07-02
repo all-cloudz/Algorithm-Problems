@@ -140,4 +140,8 @@ Lv.1 : 숫자 문자열과 영단어, https://programmers.co.kr/learn/courses/30
 
 ## Solved
 ### Graph
+#### DFS, BFS
+D4, 1226, https://han.gl/nUUEr 　★★★★
+
+#### The Shortest Path
 D4 : 1249, https://han.gl/eVHPZ 　★★★★
