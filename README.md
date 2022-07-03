@@ -136,12 +136,17 @@ Lv.1 : 숫자 문자열과 영단어, https://programmers.co.kr/learn/courses/30
 
 # SW Expert Academy
 ## Solving
-### Non
+### Math
+D6 : 14454,  https://han.gl/PbEfR 　★  
 
 ## Solved
+### Basic
+#### Math
+D4 : 14450, https://han.gl/FuIYs 　★★★  
+
 ### Graph
 #### DFS, BFS
-D4, 1226, https://han.gl/nUUEr 　★★★★
+D4 : 1226, https://han.gl/nUUEr 　★★★★
 
 #### The Shortest Path
 D4 : 1249, https://han.gl/eVHPZ 　★★★★
