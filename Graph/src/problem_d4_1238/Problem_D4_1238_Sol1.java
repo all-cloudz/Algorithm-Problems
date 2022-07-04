@@ -3,7 +3,7 @@ package problem_d4_1238;
 import java.io.*;
 import java.util.*;
 
-public class Problem_D4_1238_LevelOrderTraversal {
+public class Problem_D4_1238_Sol1 {
     private static class Graph {
         private HashMap<Integer, Set<Integer>> adjList;
 
