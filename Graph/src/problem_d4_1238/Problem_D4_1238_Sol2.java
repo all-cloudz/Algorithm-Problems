@@ -3,7 +3,7 @@ package problem_d4_1238;
 import java.io.*;
 import java.util.*;
 
-public class Problem_D4_1238 {
+public class Problem_D4_1238_Sol2 {
     private static class Graph {
         private HashMap<Integer, Set<Integer>> adjList;
 
@@ -21,6 +21,25 @@ public class Problem_D4_1238 {
             }
 
             adjList.get(head).add(tail);
+        }
+    }
+
+    private static class Person implements Comparable<Person> {
+        private int label;
+        private int level;
+
+        public Person(int label, int level) {
+            this.label = label;
+            this.level = level;
+        }
+
+        @Override
+        public int compareTo(Person o) {
+            if (this.level == o.level) {
+                return o.label - this.label;
+            }
+
+            return o.level - this.level;
         }
     }
 
@@ -51,32 +70,34 @@ public class Problem_D4_1238 {
     }
 
     private static int lastPerson(Graph network, int start) {
+        PriorityQueue<Person> persons = new PriorityQueue<>();
+
         HashSet<Integer> discovered = new HashSet<>();
         Queue<Integer> vertices = new LinkedList<>();
 
         discovered.add(start);
         vertices.offer(start);
 
-        PriorityQueue<Integer> lastPersons = new PriorityQueue<>((a, b) -> b - a);
+        int level = 0;
         while (!vertices.isEmpty()) {
-            int cur = vertices.poll();
+            int size = vertices.size();
+            for (int i = 0; i < size; i++) {
+                int cur = vertices.poll();
+                persons.offer(new Person(cur, level));
 
-            for (int next : network.adjList.get(cur)) {
-                if (discovered.contains(next)) {
-                    continue;
+                for (int next : network.adjList.get(cur)) {
+                    if (discovered.contains(next)) {
+                        continue;
+                    }
+
+                    discovered.add(next);
+                    vertices.add(next);
                 }
-
-                discovered.add(next);
-
-                if (network.adjList.get(next).isEmpty()) {
-                    lastPersons.add(next);
-                    continue;
-                }
-
-                vertices.add(next);
             }
+
+            level++;
         }
 
-        return lastPersons.poll();
+        return persons.poll().label;
     }
 }
