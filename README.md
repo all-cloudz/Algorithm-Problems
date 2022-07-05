@@ -49,6 +49,7 @@ Gold 2 : 1300, https://www.acmicpc.net/problem/1300 　★★
 ### Sort
 Bronze 1 : 2750, https://www.acmicpc.net/problem/2750 　★★  
 Silver 5 : 2751, https://www.acmicpc.net/problem/2751 　★★★★★  
+Silver 5 : 2628, https://www.acmicpc.net/problem/2628 　★★★  
 Silver 3 : 3273, https://www.acmicpc.net/problem/3273 　★  
 Silver 2 : 18870, https://www.acmicpc.net/problem/18870 　★★★★★
 
