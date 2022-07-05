@@ -30,6 +30,7 @@ Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★
 Bronze 2 : 2605, https://www.acmicpc.net/problem/2605 　★  
 Bronze 1 : 2669, https://www.acmicpc.net/problem/2669 　★★★  
 Bronze 1 : 10163, https://www.acmicpc.net/problem/10163 　★★  
+Bronze 1 : 14696, https://www.acmicpc.net/problem/14696 　★  
 Silver 3 : 15501, https://www.acmicpc.net/problem/15501 　★★
 
 ### Divide and Conquer
