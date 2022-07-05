@@ -3,7 +3,7 @@ package problem_2628;
 import java.io.*;
 import java.util.*;
 
-public class Problem_2628 {
+public class Problem_2628_Collections {
     private static List<Integer> cutWidth = new ArrayList<>();
     private static List<Integer> cutHeight = new ArrayList<>();
 
