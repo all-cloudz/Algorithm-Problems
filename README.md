@@ -102,8 +102,9 @@ Gold 2 : 1781, https://www.acmicpc.net/problem/1781 　★★★★★
 Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
 
 #### Topological Sort
-Gold 3 : 2252, https://www.acmicpc.net/problem/2252 　★★★    
-Gold 1 : 3665, https://www.acmicpc.net/problem/3665 　★★★
+Gold 3 : 2252, https://www.acmicpc.net/problem/2252 　★★★  
+Gold 2 : 1766, https://www.acmicpc.net/problem/1766 　★★★  
+Gold 1 : 3665, https://www.acmicpc.net/problem/3665 　★★★  
 
 #### Minimun Spanning Tree (MST)
 Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
