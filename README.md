@@ -83,7 +83,7 @@ Gold 3 : 11066, https://www.acmicpc.net/problem/11066 　★★★★★
 Gold 4 : 14002, https://www.acmicpc.net/problem/14002 　★★★★★  
 Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★
 
-#### Longest Common Subsqeuence (LCS)
+#### Longest Common Subsequence (LCS)
 Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
 
 ### Greedy
@@ -156,6 +156,7 @@ D6 : 14454,  https://han.gl/PbEfR 　★
 D4 : 14450, https://han.gl/FuIYs 　★★★  
 
 ### Tree
+#### Least Common Ancestor (LCA)
 D5 : 1248, https://han.gl/uAHtY 　★★★★★
 
 ### Graph
