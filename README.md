@@ -32,7 +32,7 @@ Bronze 1 : 2669, https://www.acmicpc.net/problem/2669 　★★★
 Bronze 1 : 10163, https://www.acmicpc.net/problem/10163 　★★  
 Bronze 1 : 14696, https://www.acmicpc.net/problem/14696 　★  
 Silver 3 : 15501, https://www.acmicpc.net/problem/15501 　★★  
-Silver 1 : 2564, 
+Silver 1 : 2564, https://www.acmicpc.net/problem/2564 　★  
 
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630 　★★
@@ -69,6 +69,9 @@ Gold 4 : 4803, https://www.acmicpc.net/problem/4803 　★★★★★
 
 #### DFS, BFS
 Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★
+
+#### Longest Common Ancestor (LCA)
+Gold 4 : 3584, https://www.acmicpc.net/problem/3584 　★★★★★
 
 ### Dynamic Programming
 #### Recurrence Relation
