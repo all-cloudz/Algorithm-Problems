@@ -71,7 +71,8 @@ Gold 4 : 4803, https://www.acmicpc.net/problem/4803 　★★★★★
 Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★
 
 #### Longest Common Ancestor (LCA)
-Gold 4 : 3584, https://www.acmicpc.net/problem/3584 　★★★★★
+Gold 4 : 3584, https://www.acmicpc.net/problem/3584 　★★★★★  
+Gold 1 : 17435, https://www.acmicpc.net/problem/17435 　★★★
 
 ### Dynamic Programming
 #### Recurrence Relation
