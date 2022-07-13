@@ -57,6 +57,7 @@ Silver 2 : 18870, https://www.acmicpc.net/problem/18870 　★★★★★
 ### Tree
 #### Make Tree
 Silver 2 : 11725, https://www.acmicpc.net/problem/11725 　★★★   
+Gold 5 : 1068, https://www.acmicpc.net/problem/1068 　★★★
 
 #### Binary Tree
 Silver 1 : 1991, https://www.acmicpc.net/problem/1991 　★★★  
