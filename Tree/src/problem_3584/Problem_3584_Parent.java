@@ -3,7 +3,7 @@ package problem_3584;
 import java.io.*;
 import java.util.*;
 
-public class Problem_3584 {
+public class Problem_3584_Parent {
     private static class Node {
         private int data;
         private Node parent;
@@ -48,7 +48,7 @@ public class Problem_3584 {
     }
 
     private static Node getRoot() {
-        for (int i = 1; i <= tree.length - 1; i++) {
+        for (int i = 1; i < tree.length; i++) {
             if (tree[i].parent == tree[i]) {
                 return tree[i];
             }
@@ -58,34 +58,22 @@ public class Problem_3584 {
     }
 
     private static Node findLCA(Node root, Node node1, Node node2) {
-        HashMap<Integer, Node> parent = new HashMap<>(); // key : child, value : parent
-
-        Queue<Node> nodes = new LinkedList<>();
-        nodes.add(root);
-
-        while (!nodes.isEmpty()) {
-            Node cur = nodes.poll();
-
-            for (Node nxt : cur.children) {
-                parent.put(nxt.data, cur);
-                nodes.add(nxt);
-            }
-        }
-
         HashSet<Integer> ancestor = new HashSet<>();
-        while (node1 != null) {
+        ancestor.add(root.data);
+
+        while (node1 != root) {
             ancestor.add(node1.data);
-            node1 = parent.get(node1.data);
+            node1 = node1.parent;
         }
 
-        while (node2 != null) {
+        while (node2 != root) {
             if (ancestor.contains(node2.data)) {
                 return node2;
             }
 
-            node2 = parent.get(node2.data);
+            node2 = node2.parent;
         }
 
-        return null;
+        return root;
     }
 }
