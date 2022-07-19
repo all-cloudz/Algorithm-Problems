@@ -77,6 +77,8 @@ Gold 4 : 3584, https://www.acmicpc.net/problem/3584 　★★★★★
 Gold 1 : 17435, https://www.acmicpc.net/problem/17435 　★★★
 
 ### Dynamic Programming
+Silver 2 : 1912, https://www.acmicpc.net/problem/1912 　★★★
+
 #### Recurrence Relation
 Bronze 1 : 24416, https://www.acmicpc.net/problem/24416 　★★   
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003 　★★  
