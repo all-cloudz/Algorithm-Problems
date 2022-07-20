@@ -77,14 +77,13 @@ Gold 4 : 3584, https://www.acmicpc.net/problem/3584 　★★★★★
 Gold 1 : 17435, https://www.acmicpc.net/problem/17435 　★★★
 
 ### Dynamic Programming
-Silver 2 : 1912, https://www.acmicpc.net/problem/1912 　★★★
-
 #### Recurrence Relation
 Bronze 1 : 24416, https://www.acmicpc.net/problem/24416 　★★   
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003 　★★  
 Silver 3 : 1904, https://www.acmicpc.net/problem/1904 　★★★  
 Silver 3 : 9461, https://www.acmicpc.net/problem/9461 　★★  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
+Silver 2 : 1912, https://www.acmicpc.net/problem/1912 　★★★  
 Gold 3 : 11066, https://www.acmicpc.net/problem/11066 　★★★★★
 
 #### Knapsack Problem
