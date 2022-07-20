@@ -87,6 +87,9 @@ Silver 3 : 9461, https://www.acmicpc.net/problem/9461 　★★
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
 Gold 3 : 11066, https://www.acmicpc.net/problem/11066 　★★★★★
 
+#### Knapsack Problem
+Gold 5 : 12865, https://www.acmicpc.net/problem/12865 　★★★★★
+
 #### Longest Increasing Subsequence (LIS)
 Gold 4 : 14002, https://www.acmicpc.net/problem/14002 　★★★★★  
 Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★
