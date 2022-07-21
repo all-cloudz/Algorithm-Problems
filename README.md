@@ -27,6 +27,9 @@ Gold 5 : 9663, https://www.acmicpc.net/problem/9663 　★★★
 Gold 5 : 1759, https://www.acmicpc.net/problem/1759 　★★★  
 Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★
 
+#### String
+Gold 4 : 9935, https://www.acmicpc.net/problem/9935 　★★★★  
+
 #### Implementation
 Bronze 2 : 2605, https://www.acmicpc.net/problem/2605 　★  
 Bronze 1 : 2669, https://www.acmicpc.net/problem/2669 　★★★  
