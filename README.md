@@ -94,7 +94,8 @@ Gold 5 : 12865, https://www.acmicpc.net/problem/12865 　★★★★★
 
 #### Longest Increasing Subsequence (LIS)
 Gold 4 : 14002, https://www.acmicpc.net/problem/14002 　★★★★★  
-Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★
+Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★  
+Platinum 5 : 14003, https://www.acmicpc.net/problem/14003 　★★★★★  
 
 #### Longest Common Subsequence (LCS)
 Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
