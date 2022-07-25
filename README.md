@@ -90,6 +90,7 @@ Silver 3 : 1904, https://www.acmicpc.net/problem/1904 　★★★
 Silver 3 : 9461, https://www.acmicpc.net/problem/9461 　★★  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
 Silver 2 : 1912, https://www.acmicpc.net/problem/1912 　★★★  
+Silver 1 : 11057, https://www.acmicpc.net/problem/11057 　★★★★★  
 Gold 3 : 11066, https://www.acmicpc.net/problem/11066 　★★★★★
 
 #### Knapsack Problem
