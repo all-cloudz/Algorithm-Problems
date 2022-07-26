@@ -36,6 +36,7 @@ Bronze 1 : 2669, https://www.acmicpc.net/problem/2669 　★★★
 Bronze 1 : 10163, https://www.acmicpc.net/problem/10163 　★★  
 Bronze 1 : 14696, https://www.acmicpc.net/problem/14696 　★  
 Silver 3 : 15501, https://www.acmicpc.net/problem/15501 　★★  
+Silver 2 : 2615, https://www.acmicpc.net/problem/2615 　★★★  
 Silver 1 : 2564, https://www.acmicpc.net/problem/2564 　★  
 
 ### Divide and Conquer
@@ -70,7 +71,8 @@ Gold 5 : 5639, https://www.acmicpc.net/problem/5639 　★★★★★
 #### Union Find
 Gold 4 : 1717, https://www.acmicpc.net/problem/1717 　★★★  
 Gold 4 : 1976, https://www.acmicpc.net/problem/1976 　★★★  
-Gold 4 : 4803, https://www.acmicpc.net/problem/4803 　★★★★★
+Gold 4 : 4803, https://www.acmicpc.net/problem/4803 　★★★★★  
+Gold 2 : 4195, https://www.acmicpc.net/problem/4195 　★★★★★
 
 #### DFS, BFS
 Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★
