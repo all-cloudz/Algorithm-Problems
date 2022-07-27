@@ -14,13 +14,7 @@ public class Problem_16236 {
             this.point = point;
         }
 
-        public int getDistance() {
-            return Math.abs(point[0] - shark.point[0]) + Math.abs(point[1] - shark.point[1]);
-        }
-
-        public int eatFish(Fish fish) {
-            int dist = fish.getDistance();
-
+        public void eatFish(Fish fish) {
             if (shark.size == ++cntEat) {
                 shark.size++;
                 cntEat = 0;
@@ -28,8 +22,6 @@ public class Problem_16236 {
 
             shark.point = fish.point;
             fish.size = 0;
-
-            return dist;
         }
 
         @Override
@@ -46,6 +38,10 @@ public class Problem_16236 {
             }
 
             return distThis - distO;
+        }
+
+        private int getDistance() {
+            return Math.abs(point[0] - shark.point[0]) + Math.abs(point[1] - shark.point[1]);
         }
     }
 
@@ -111,13 +107,13 @@ public class Problem_16236 {
                     }
 
                     Fish next = fishes[nextRow][nextCol];
-                    discovered[nextRow][nextCol] = true;
 
                     if (next.size > shark.size) {
                         continue;
                     }
 
                     searchList.offer(next);
+                    discovered[nextRow][nextCol] = true;
 
                     if (1 <= next.size && next.size < shark.size) {
                         huntList.offer(next);
