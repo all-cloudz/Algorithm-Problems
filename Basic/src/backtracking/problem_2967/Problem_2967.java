@@ -1,4 +1,4 @@
-package implementation.problem_2967;
+package backtracking.problem_2967;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -25,7 +25,8 @@ Silver 2 : 14889, https://www.acmicpc.net/problem/14889 　★★★★★
 Silver 1 : 14888, https://www.acmicpc.net/problem/14888 　★★★★★  
 Gold 5 : 9663, https://www.acmicpc.net/problem/9663 　★★★  
 Gold 5 : 1759, https://www.acmicpc.net/problem/1759 　★★★  
-Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★
+Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★    
+Platinum 5 : 2967, https://www.acmicpc.net/problem/2967 　★★★★
 
 #### String
 Gold 4 : 9935, https://www.acmicpc.net/problem/9935 　★★★★  
