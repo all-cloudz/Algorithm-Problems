@@ -37,6 +37,7 @@ Bronze 1 : 2669, https://www.acmicpc.net/problem/2669 　★★★
 Bronze 1 : 10163, https://www.acmicpc.net/problem/10163 　★★  
 Bronze 1 : 14696, https://www.acmicpc.net/problem/14696 　★  
 Silver 3 : 15501, https://www.acmicpc.net/problem/15501 　★★  
+Silver 3 : 1244, https://www.acmicpc.net/problem/1244 　★★  
 Silver 2 : 2615, https://www.acmicpc.net/problem/2615 　★★★  
 Silver 1 : 2564, https://www.acmicpc.net/problem/2564 　★  
 
