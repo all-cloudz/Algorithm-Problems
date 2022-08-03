@@ -124,6 +124,7 @@ Gold 2 : 1781, https://www.acmicpc.net/problem/1781 　★★★★★
 #### DFS, BFS
 Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
 Gold 3 : 16236, https://www.acmicpc.net/problem/16236 　★★★★★  
+Gold 1 : 9328, https://www.acmicpc.net/problem/9328 　★★★★★  
 
 #### Topological Sort
 Gold 3 : 2252, https://www.acmicpc.net/problem/2252 　★★★  
