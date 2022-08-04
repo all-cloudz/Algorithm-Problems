@@ -23,7 +23,7 @@ public class Problem_D4_1218 {
 			input.readLine();
 			char[] brackets = input.readLine().toCharArray();
 			
-			if (vaildate(brackets)) {
+			if (validate(brackets)) {
 				answer.append(String.format("#%d 1%n", tc));
 				continue;
 			}
@@ -34,7 +34,7 @@ public class Problem_D4_1218 {
 		System.out.println(answer);
 	}
 	
-	private static boolean vaildate(char[] brackets) {
+	private static boolean validate(char[] brackets) {
 		Stack<Character> checker = new Stack<>();
 		
 		for (char cur : brackets) {
