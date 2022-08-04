@@ -36,7 +36,7 @@ public class Problem_9328_Sol1 {
 			
 			doorsMap = new HashMap<>();
 			for (int i = 0; i < 26; i++) {
-				doorsMap.putIfAbsent((char) ('A' + i), new LinkedList<>());
+				doorsMap.putIfAbsent((char) ('A' + i), new ArrayDeque<>());
 			}
 			
 			StringTokenizer tokenizer = new StringTokenizer(input.readLine());

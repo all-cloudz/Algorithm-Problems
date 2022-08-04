@@ -33,22 +33,21 @@ public class Problem_D4_1218 {
 		
 		System.out.println(answer);
 	}
-	
+
 	private static boolean validate(char[] brackets) {
 		Stack<Character> checker = new Stack<>();
-		
+
 		for (char cur : brackets) {
-			if (checker.isEmpty()) {
+			if (checker.isEmpty() || !match.containsKey(cur)) {
 				checker.push(cur);
 				continue;
 			}
-			
-			if (match.containsKey(cur) && match.get(cur).equals(checker.peek())) {
-				checker.pop();
-				continue;
+
+			if (!match.get(cur).equals(checker.peek())) {
+				break;
 			}
-			
-			checker.push(cur);
+
+			checker.pop();
 		}
 
 		return checker.isEmpty();
