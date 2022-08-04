@@ -33,7 +33,6 @@ public class Problem_9328_Sol1 {
 		int T = Integer.parseInt(input.readLine());
 		while (T-- > 0) {
 			keys = new HashSet<>();
-			
 			doorsMap = new HashMap<>();
 			for (int i = 0; i < 26; i++) {
 				doorsMap.putIfAbsent((char) ('A' + i), new ArrayDeque<>());
@@ -160,7 +159,7 @@ public class Problem_9328_Sol1 {
 					}
 				}
 				
-				points.add(new Point(nextRow, nextCol));
+				points.offer(new Point(nextRow, nextCol));
 				discovered[nextRow][nextCol] = true;
 			}
 		}
