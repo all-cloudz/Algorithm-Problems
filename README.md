@@ -14,6 +14,7 @@ Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002
 Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★  
 Silver 4 (brute force) : 1018, https://www.acmicpc.net/problem/1018 　★★★  
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
+Silver 3 (prime number) : 1929, https://www.acmicpc.net/problem/1929
 Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★  
 Silver 2 (priority queue) : 11279, https://www.acmicpc.net/problem/11279 　★★★  
 Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★
@@ -182,6 +183,8 @@ D5 : 1247, https://han.gl/rXgaC 　★★★
 
 ## Solved
 ### Basic
+D4 (stack) : 1218, https://han.gl/yCBVr 　★★★  
+
 #### Math
 D4 : 14450, https://han.gl/FuIYs 　★★★
 
