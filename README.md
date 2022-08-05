@@ -14,11 +14,13 @@ Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002
 Silver 4 (queue) : 18258, https://www.acmicpc.net/problem/18258 　★★  
 Silver 4 (stack) : 2164, https://www.acmicpc.net/problem/2164 　★★  
 Silver 4 (brute force) : 1018, https://www.acmicpc.net/problem/1018 　★★★  
+Silver 4 (sliding window) : 2003, https://www.acmicpc.net/problem/2003 　★★★★★  
 Silver 3 (circle) : 1004, https://www.acmicpc.net/problem/1004  
-Silver 3 (prime number) : 1929, https://www.acmicpc.net/problem/1929
+Silver 3 (prime number) : 1929, https://www.acmicpc.net/problem/1929  
 Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★  
 Silver 2 (priority queue) : 11279, https://www.acmicpc.net/problem/11279 　★★★  
-Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★
+Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★  
+Gold 5 (stack) : 2493, https://www.acmicpc.net/problem/2493 　★★★★★  
 
 #### Backtracking
 Bronze 1 : 2309, https://www.acmicpc.net/problem/2309 　★★★  
