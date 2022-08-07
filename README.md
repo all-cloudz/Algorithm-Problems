@@ -20,6 +20,7 @@ Silver 3 (prime number) : 1929, https://www.acmicpc.net/problem/1929
 Silver 3 (cumulative sum) : 11659, https://www.acmicpc.net/problem/11659 　★★★★  
 Silver 2 (priority queue) : 11279, https://www.acmicpc.net/problem/11279 　★★★  
 Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★  
+Gold 4 (sliding window) : 1806, https://www.acmicpc.net/problem/1806 　★★  
 Gold 5 (stack) : 2493, https://www.acmicpc.net/problem/2493 　★★★★★  
 
 #### Backtracking
