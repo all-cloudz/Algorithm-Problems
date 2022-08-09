@@ -3,7 +3,7 @@ package implementation.problem_2563;
 import java.io.*;
 import java.util.*;
 
-public class Problem_2563 {
+public class Problem_2563_Sol1 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
@@ -12,7 +12,6 @@ public class Problem_2563 {
 		
 		int N = Integer.parseInt(input.readLine());
 		while (N-- > 0) {
-//			int[] point = Arrays.stream(input.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 			int[] point = new int[2];
 			StringTokenizer st = new StringTokenizer(input.readLine());
 			point[0] = Integer.parseInt(st.nextToken());
