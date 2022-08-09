@@ -5,9 +5,10 @@
 
 ## Solved
 ### Basic
-Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110  
 Bronze 2 (string) : 5622, https://www.acmicpc.net/problem/5622  
 Bronze 2 (array) : 13300, https://www.acmicpc.net/problem/13300  
+Bronze 1 (while) : 1100, https://www.acmicpc.net/problem/1110  
+Bronze 1 (array) : 2563, https://www.acmicpc.net/problem/2563  
 Silver 5 (string) : 1316, https://www.acmicpc.net/problem/1316  
 Silver 4 (hash map) : 10816, https://www.acmicpc.net/problem/10816 　★★★★★  
 Silver 4 (circle) : 1002, https://www.acmicpc.net/problem/1002  
@@ -24,6 +25,7 @@ Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★
 Silver 2 (sliding window) : 12891, https://www.acmicpc.net/problem/12891 　★★★★★  
 Gold 4 (sliding window) : 1806, https://www.acmicpc.net/problem/1806 　★★★  
 Gold 5 (stack) : 2493, https://www.acmicpc.net/problem/2493 　★★★★★  
+Gold 2 (priority queue) : 1665, https://www.acmicpc.net/problem/1655 　★★  
 
 #### Backtracking
 Bronze 1 : 2309, https://www.acmicpc.net/problem/2309 　★★★  
@@ -189,14 +191,21 @@ D6 : 14454,  https://han.gl/PbEfR 　★
 D4 (stack) : 1218, https://han.gl/yCBVr 　★★★  
 
 #### Backtracking
-D3 : 9229, https://han.gl/nJLad 　★★★★★  
+D3 : 9229, https://han.gl/nJLad 　★★★  
+D3 : 6808, https://han.gl/KxWcj 　★★★★★
 
 #### Math
 D4 : 14450, https://han.gl/FuIYs 　★★★
 
 ### Tree
+D4 : 1233, https://han.gl/kxKOf 　★  
+
 #### Least Common Ancestor (LCA)
 D5 : 1248, https://han.gl/uAHtY 　★★★★★
+
+### Dynamic Programming (DP)
+#### Memoization
+D4 : 1861, https://han.gl/uuDaK 　★★★★★
 
 ### Graph
 #### DFS, BFS
