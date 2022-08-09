@@ -1,4 +1,4 @@
-package problem_d3_9229;
+package backtracking.problem_d3_9229;
 
 import java.io.*;
 import java.util.*;
