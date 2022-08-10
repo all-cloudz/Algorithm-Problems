@@ -34,7 +34,8 @@ Silver 2 : 14889, https://www.acmicpc.net/problem/14889 　★★★★★
 Silver 1 : 14888, https://www.acmicpc.net/problem/14888 　★★★★★  
 Gold 5 : 9663, https://www.acmicpc.net/problem/9663 　★★★  
 Gold 5 : 1759, https://www.acmicpc.net/problem/1759 　★★★  
-Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★    
+Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★  
+Gold 4 : 16637, https://www.acmicpc.net/problem/16637 　★★★★★  
 Platinum 5 : 2967, https://www.acmicpc.net/problem/2967 　★★★★
 
 #### String
@@ -50,6 +51,9 @@ Silver 3 : 15501, https://www.acmicpc.net/problem/15501 　★★
 Silver 3 : 1244, https://www.acmicpc.net/problem/1244 　★★  
 Silver 2 : 2615, https://www.acmicpc.net/problem/2615 　★★★  
 Silver 1 : 2564, https://www.acmicpc.net/problem/2564 　★  
+Silver 1 : 16926, https://www.acmicpc.net/problem/16926 　★★  
+Silver 1 : 16935, https://www.acmicpc.net/problem/16935 　★★  
+Gold 4 : 17406, https://www.acmicpc.net/problem/17406 　★★★
 
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630 　★★
@@ -99,6 +103,7 @@ Platinum 5 : 2243, https://www.acmicpc.net/problem/2243 　★★★
 ### Dynamic Programming
 #### Recurrence Relation
 Bronze 1 : 24416, https://www.acmicpc.net/problem/24416 　★★   
+Silver 5: 1010, https://www.acmicpc.net/problem/1010 　★★★  
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003 　★★  
 Silver 3 : 1904, https://www.acmicpc.net/problem/1904 　★★★  
 Silver 3 : 9461, https://www.acmicpc.net/problem/9461 　★★  
