@@ -3,7 +3,6 @@ package implementation.problem_17406;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Problem_17406_Sol2 {
@@ -56,7 +55,7 @@ public class Problem_17406_Sol2 {
             }
 
             for (int i = 0; i < K; i++) {
-                rotate(rotated, selected[i]);
+                rotate(rotated, selected[i][0], selected[i][1], selected[i][2]);
             }
 
             for (int i = 0; i < N; i++) {
@@ -84,12 +83,12 @@ public class Problem_17406_Sol2 {
         }
     }
 
-    private static void rotate(int[][] rotated, int[] operation) {
+    private static void rotate(int[][] rotated, int row, int col, int size) {
         final int[][] DIRECTIONS = { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 } };
 
-        for (int i = 0; i < operation[2]; i++) {
-            int curRow = operation[0] - operation[2] + i;
-            int curCol = operation[1] - operation[2] + i;
+        for (int i = 0; i < size; i++) {
+            int curRow = row - size + i;
+            int curCol = col - size + i;
 
             int tmp = rotated[curRow][curCol];
 
@@ -98,7 +97,7 @@ public class Problem_17406_Sol2 {
                 int prevRow = curRow + DIRECTIONS[idx][0];
                 int prevCol = curCol + DIRECTIONS[idx][1];
 
-                if (!isExist(prevRow, prevCol, operation, i)) {
+                if (!isExist(prevRow, prevCol, row, col, size, i)) {
                     idx++;
                     continue;
                 }
@@ -112,11 +111,11 @@ public class Problem_17406_Sol2 {
         }
     }
 
-    private static boolean isExist(int prevRow, int prevCol, int[] operation, int limit) {
-        int supRow = operation[0] + operation[2] - limit;
-        int infRow = operation[0] - operation[2] + limit;
-        int supCol = operation[1] + operation[2] - limit;
-        int infCol = operation[1] - operation[2] + limit;
+    private static boolean isExist(int prevRow, int prevCol, int row, int col, int size, int limit) {
+        int supRow = row + size - limit;
+        int infRow = row - size + limit;
+        int supCol = col + size - limit;
+        int infCol = col - size + limit;
 
         return infRow <= prevRow && prevRow <= supRow && infCol <= prevCol && prevCol <= supCol;
     }
