@@ -28,9 +28,11 @@ Gold 5 (stack) : 2493, https://www.acmicpc.net/problem/2493 　★★★★★
 Gold 2 (priority queue) : 1665, https://www.acmicpc.net/problem/1655 　★★  
 
 #### Backtracking
+Bronze 2 : 3040, https://www.acmicpc.net/problem/3040 　★  
 Bronze 1 : 2309, https://www.acmicpc.net/problem/2309 　★★★  
 Silver 3 : 15649 ~ 15652, https://www.acmicpc.net/problem/15649 　★★★★★  
 Silver 2 : 14889, https://www.acmicpc.net/problem/14889 　★★★★★  
+Silver 2 : 2961, https://www.acmicpc.net/problem/2961 　★★★  
 Silver 1 : 14888, https://www.acmicpc.net/problem/14888 　★★★★★  
 Gold 5 : 9663, https://www.acmicpc.net/problem/9663 　★★★  
 Gold 5 : 1759, https://www.acmicpc.net/problem/1759 　★★★  
@@ -147,7 +149,7 @@ Gold 3 : 2252, https://www.acmicpc.net/problem/2252 　★★★
 Gold 2 : 1766, https://www.acmicpc.net/problem/1766 　★★★  
 Gold 1 : 3665, https://www.acmicpc.net/problem/3665 　★★★  
 
-#### Minimun Spanning Tree (MST)
+#### Minimum Spanning Tree (MST)
 Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
 
 #### The Shortest Path
@@ -211,7 +213,8 @@ D5 : 1248, https://han.gl/uAHtY 　★★★★★
 
 ### Dynamic Programming (DP)
 #### Memoization
-D4 : 1861, https://han.gl/uuDaK 　★★★★★
+D3 : 5215, https://han.gl/eYOZL 　★★★★★  
+D4 : 1861, https://han.gl/uuDaK 　★★★★★  
 
 ### Graph
 #### DFS, BFS
