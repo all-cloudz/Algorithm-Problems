@@ -3,7 +3,7 @@ package problem_d4_14695;
 import java.io.*;
 import java.util.*;
 
-public class Problem_D4_14695 {
+public class Problem_D4_14695_Sol1 {
     private static class Vector {
         private long x;
         private long y;
@@ -81,13 +81,6 @@ public class Problem_D4_14695 {
             }
 
             Vector v2 = vectors.remove(vectors.size() - 1);
-            deleteParallelVector(vectors, v2);
-
-            if (vectors.isEmpty()) {
-                answer.append("TAK\n");
-                continue;
-            }
-
             Vector normal = Vector.outerProduct(v1, v2);
 
             for (Vector cur : vectors) {
