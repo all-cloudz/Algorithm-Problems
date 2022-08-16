@@ -131,12 +131,14 @@ Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
 
 ### Greedy
 Silver 4 : 11399, https://www.acmicpc.net/problem/11399 　★★  
+Silver 4 : 2839, https://www.acmicpc.net/problem/2839 　★★  
 Silver 3 : 11047, https://www.acmicpc.net/problem/11047 　★★    
 Silver 2 : 1541, https://www.acmicpc.net/problem/1541 　★★★  
 Silver 1 : 1931, https://www.acmicpc.net/problem/1931 　★★★  
 Silver 1 : 1946, https://www.acmicpc.net/problem/1946 　★★  
 Silver 1 : 2138,   https://www.acmicpc.net/problem/2138 　★★★★  
 Gold 5 : 19940, https://www.acmicpc.net/problem/19940 　★★★  
+Gold 5 : 11000, https://www.acmicpc.net/problem/11000 　★★  
 Gold 4 : 13975, https://www.acmicpc.net/problem/13975 　★★  
 Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★  
 Gold 2 : 1781, https://www.acmicpc.net/problem/1781 　★★★★★
