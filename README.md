@@ -40,6 +40,7 @@ Gold 5 : 1759, https://www.acmicpc.net/problem/1759 　★★★
 Gold 5 : 15686, https://www.acmicpc.net/problem/15686 　★★★★★  
 Gold 4 : 2580, https://www.acmicpc.net/problem/2580 　★★★  
 Gold 4 : 16637, https://www.acmicpc.net/problem/16637 　★★★★★  
+Gold 4 : 1987, https://www.acmicpc.net/problem/1987 　★★★★★  
 Platinum 5 : 2967, https://www.acmicpc.net/problem/2967 　★★★★
 
 #### String
@@ -143,7 +144,8 @@ Gold 5 : 19940, https://www.acmicpc.net/problem/19940 　★★★
 Gold 5 : 11000, https://www.acmicpc.net/problem/11000 　★★  
 Gold 4 : 13975, https://www.acmicpc.net/problem/13975 　★★  
 Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★  
-Gold 2 : 1781, https://www.acmicpc.net/problem/1781 　★★★★★
+Gold 2 : 1781, https://www.acmicpc.net/problem/1781 　★★★★★  
+Gold 2: 3109, https://www.acmicpc.net/problem/3109 　★★★★★  
 
 ### Graph
 #### DFS, BFS
@@ -208,7 +210,8 @@ D6 : 14454,  https://han.gl/PbEfR 　★
 D4 (stack) : 1218, https://han.gl/yCBVr 　★★★  
 
 #### Implementation
-D4 : 5644, https://han.gl/oTveZ 　★★★★★
+D4 : 5644, https://han.gl/oTveZ 　★★★★★  
+D4 : 2117, https://han.gl/kSSTn 　★★★★★  
 
 #### Backtracking
 D3 : 9229, https://han.gl/nJLad 　★★★  
