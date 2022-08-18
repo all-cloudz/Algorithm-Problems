@@ -60,7 +60,8 @@ Silver 1 : 16935, https://www.acmicpc.net/problem/16935 　★★
 Gold 4 : 17406, https://www.acmicpc.net/problem/17406 　★★★
 
 ### Divide and Conquer
-Silver 3 : 2630, https://www.acmicpc.net/problem/2630 　★★
+Silver 3 : 2630, https://www.acmicpc.net/problem/2630 　★★  
+Silver 1 : 1992, https://www.acmicpc.net/problem/1992 　★★★★
 
 ### Binary Search
 #### find target
