@@ -1,4 +1,4 @@
-package problem_16637;
+package backtracking.problem_16637;
 
 import java.io.*;
 import java.util.*;
