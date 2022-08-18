@@ -25,7 +25,7 @@ public class Problem_D5_1247 {
     private static int N;
     private static Point[] points;
     private static int[][] dists;
-    private static int[][] memo;
+    private static int[][] memo; // memo[visited][cur] : 현재의 방문 기록과 위치에서 조건을 만족시키는 최단 거리를 저장
 
     public static void main(String[] args) throws IOException {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
@@ -35,7 +35,7 @@ public class Problem_D5_1247 {
             N = Integer.parseInt(input.readLine());
             points = new Point[N + 2];
             dists = new int[N + 2][N + 2];
-            memo = new int[(1 << N + 2)][N + 2];
+            memo = new int[(1 << N + 2)][N + 2]; // visited로 비트마스킹을 사용하고, 총 N + 2개의 지점이 있으므로 N + 2개의 비트를 마련해둔다.
             for (int j = 0; j < (1 << N + 2); j++) {
                  Arrays.fill(memo[j], INF);
             }
@@ -66,10 +66,13 @@ public class Problem_D5_1247 {
     private static int findPath(int visited, int cur) {
         visited |= (1 << cur);
 
+        // 0번 지점을 제외하고 모든 장소를 방문하면
         if (visited == (1 << N + 2) - 2) {
+            // 현재 장소가 0번 지점과 연결되었을 때만 거리를 반환
             return (dists[cur][0] == 0) ? INF : dists[cur][0];
         }
 
+        // 이미 방문한 적이 있다면 계산해둔 거리를 반환
         if (memo[visited][cur] != INF) {
             return memo[visited][cur];
         }
