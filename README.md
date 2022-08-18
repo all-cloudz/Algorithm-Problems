@@ -204,6 +204,9 @@ D6 : 14454,  https://han.gl/PbEfR 　★
 ### Basic
 D4 (stack) : 1218, https://han.gl/yCBVr 　★★★  
 
+#### Implementation
+D4 : 5644, https://han.gl/oTveZ 　★★★★★
+
 #### Backtracking
 D3 : 9229, https://han.gl/nJLad 　★★★  
 D3 : 6808, https://han.gl/KxWcj 　★★★★★  
