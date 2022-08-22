@@ -60,7 +60,8 @@ Silver 1 : 16926, https://www.acmicpc.net/problem/16926 　★★
 Silver 1 : 16935, https://www.acmicpc.net/problem/16935 　★★  
 Gold 4 : 17406, https://www.acmicpc.net/problem/17406 　★★★★  
 Gold 4 : 15683, https://www.acmicpc.net/problem/15683 　★★★★  
-Gold 3 : 17135, https://www.acmicpc.net/problem/17135 　★★★★★
+Gold 3 : 17135, https://www.acmicpc.net/problem/17135 　★★★★★  
+Platinum 4 : 3025, https://www.acmicpc.net/problem/3025 　★★★★★  
 
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630 　★★  
