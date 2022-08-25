@@ -153,6 +153,8 @@ Gold 2: 3109, https://www.acmicpc.net/problem/3109 　★★★★★
 #### DFS, BFS
 Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
 Silver 1 : 1697, https://www.acmicpc.net/problem/1697 　★★★  
+Gold 5 : 13023, https://www.acmicpc.net/problem/13023 　★★★★★  
+Gold 5 : 7576, https://www.acmicpc.net/problem/7576 　★★★★★  
 Gold 4 : 2206, https://www.acmicpc.net/problem/2206 　★★★  
 Gold 3 : 16236, https://www.acmicpc.net/problem/16236 　★★★★★  
 Gold 3 : 14442, https://www.acmicpc.net/problem/14442 　★★★★★  
@@ -230,6 +232,10 @@ D4 : 14695, https://han.gl/ZBidh 　★
 ### Tree
 D4 : 1233, https://han.gl/kxKOf 　★  
 
+#### Union-Find
+D4 : 3289, https://han.gl/whHRm 　★★  
+D4 : 7465, https://han.gl/FNgXN 　★★  
+
 #### Least Common Ancestor (LCA)
 D5 : 1248, https://han.gl/uAHtY 　★★★★★
 
@@ -245,7 +251,10 @@ D4 : 1227, https://han.gl/hrIjE 　★★★★
 D4 : 1238, https://han.gl/FURBB 　★★★★★
 
 #### The Shortest Path
-D4 : 1249, https://han.gl/eVHPZ 　★★★★
+D4 : 1249, https://han.gl/eVHPZ 　★★★★  
+
+#### Minimum Spanning Tree (MST)
+D4 : 3124, https://han.gl/GGhzT 　★★★★  
 
 #### Traveling Salesman Problem (TSP)
 D5 : 1247, https://han.gl/rXgaC 　★★★
