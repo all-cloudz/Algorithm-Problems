@@ -155,7 +155,9 @@ Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★
 Silver 1 : 1697, https://www.acmicpc.net/problem/1697 　★★★  
 Gold 5 : 13023, https://www.acmicpc.net/problem/13023 　★★★★★  
 Gold 5 : 7576, https://www.acmicpc.net/problem/7576 　★★★★★  
+Gold 5 : 10026, https://www.acmicpc.net/problem/10026 　★★★  
 Gold 4 : 2206, https://www.acmicpc.net/problem/2206 　★★★  
+Gold 4 : 3055, https://www.acmicpc.net/problem/3055 　★★★★★  
 Gold 3 : 16236, https://www.acmicpc.net/problem/16236 　★★★★★  
 Gold 3 : 14442, https://www.acmicpc.net/problem/14442 　★★★★★  
 Gold 1 : 9328, https://www.acmicpc.net/problem/9328 　★★★★★  
@@ -166,7 +168,8 @@ Gold 2 : 1766, https://www.acmicpc.net/problem/1766 　★★★
 Gold 1 : 3665, https://www.acmicpc.net/problem/3665 　★★★  
 
 #### Minimum Spanning Tree (MST)
-Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★ 
+Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★  
+Gold 4 : 1922, https://www.acmicpc.net/problem/1922 　★★★★
 
 #### The Shortest Path
 Gold 5(Dijkstra) : 1753, https://www.acmicpc.net/problem/1753 　★★★★  
