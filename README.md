@@ -59,7 +59,8 @@ Silver 1 : 2564, https://www.acmicpc.net/problem/2564 　★
 Silver 1 : 16926, https://www.acmicpc.net/problem/16926 　★★  
 Silver 1 : 16935, https://www.acmicpc.net/problem/16935 　★★  
 Gold 4 : 17406, https://www.acmicpc.net/problem/17406 　★★★★  
-Gold 4 : 15683, https://www.acmicpc.net/problem/15683 　★★★★  
+Gold 4 : 15683, https://www.acmicpc.net/problem/15683 　★★★★    
+Gold 4 : 17144, https://www.acmicpc.net/problem/17144 　★★★  
 Gold 3 : 17135, https://www.acmicpc.net/problem/17135 　★★★★★  
 Platinum 4 : 3025, https://www.acmicpc.net/problem/3025 　★★★★★  
 
@@ -158,6 +159,7 @@ Gold 5 : 7576, https://www.acmicpc.net/problem/7576 　★★★★★
 Gold 5 : 10026, https://www.acmicpc.net/problem/10026 　★★★  
 Gold 4 : 2206, https://www.acmicpc.net/problem/2206 　★★★  
 Gold 4 : 3055, https://www.acmicpc.net/problem/3055 　★★★★★  
+Gold 4 : 17471, https://www.acmicpc.net/problem/17471 　★★★★★  
 Gold 3 : 16236, https://www.acmicpc.net/problem/16236 　★★★★★  
 Gold 3 : 14442, https://www.acmicpc.net/problem/14442 　★★★★★  
 Gold 1 : 9328, https://www.acmicpc.net/problem/9328 　★★★★★  
@@ -175,6 +177,7 @@ Gold 4 : 1922, https://www.acmicpc.net/problem/1922 　★★★★
 Gold 5(Dijkstra) : 1753, https://www.acmicpc.net/problem/1753 　★★★★  
 Gold 5(Dijkstra) : 1916, https://www.acmicpc.net/problem/1916 　★★★    
 Gold 4(Dijkstra) : 1504, https://www.acmicpc.net/problem/1504 　★★  
+Gold 4(Dijkstra) : 4485, https://www.acmicpc.net/problem/4485 　★★★★  
 Gold 4(Bellman-Ford) : 11657, https://www.acmicpc.net/problem/11657 　★★★★  
 Gold 4(Floyd-Warshall) : 11404, https://www.acmicpc.net/problem/11404 　★★★★  
 Gold 4(Floyd-Warshall) : 1956, https://www.acmicpc.net/problem/11404 　★★★  
