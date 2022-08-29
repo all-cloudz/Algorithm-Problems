@@ -232,7 +232,8 @@ D4 : 2117, https://han.gl/kSSTn 　★★★★★
 D3 : 9229, https://han.gl/nJLad 　★★★  
 D3 : 6808, https://han.gl/KxWcj 　★★★★★  
 D4 : 4012, https://han.gl/EsuTy 　★★★★★  
-D4 : 3234, https://han.gl/HxBtg 　★★★★★  
+D4 : 3234, https://han.gl/HxBtg 　★★★★★    
+D5 : 1767, https://han.gl/hLAqs 　★★★★★
 
 #### Math
 D4 : 14450, https://han.gl/FuIYs 　★★★  
