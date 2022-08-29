@@ -32,7 +32,6 @@ public class Problem_D5_Battle1 {
             sited = new int[N];
             totalMinDist = Integer.MAX_VALUE;
             generatePermutation(0, 0);
-
             answer.append(String.format("#%d %d%n", tc, totalMinDist));
         }
 
