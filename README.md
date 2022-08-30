@@ -155,7 +155,8 @@ Gold 2: 3109, https://www.acmicpc.net/problem/3109 　★★★★★
 Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
 Silver 1 : 1697, https://www.acmicpc.net/problem/1697 　★★★  
 Gold 5 : 13023, https://www.acmicpc.net/problem/13023 　★★★★★  
-Gold 5 : 7576, https://www.acmicpc.net/problem/7576 　★★★★★  
+Gold 5 : 7576, https://www.acmicpc.net/problem/7576 　★★★★  
+Gold 5 : 7569, https://www.acmicpc.net/problem/7569 　★★★★★  
 Gold 5 : 10026, https://www.acmicpc.net/problem/10026 　★★★  
 Gold 4 : 2206, https://www.acmicpc.net/problem/2206 　★★★  
 Gold 4 : 3055, https://www.acmicpc.net/problem/3055 　★★★★★  
