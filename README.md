@@ -108,6 +108,7 @@ Gold 4 : 3584, https://www.acmicpc.net/problem/3584 　★★★★★
 Gold 1 : 17435, https://www.acmicpc.net/problem/17435 　★★★
 
 #### Segment Tree
+Gold 1 : 2042, https://www.acmicpc.net/problem/2042 　★★★  
 Platinum 5 : 2243, https://www.acmicpc.net/problem/2243 　★★★  
 Platinum 5 : 2104, https://www.acmicpc.net/problem/2104 　★★★  
 
