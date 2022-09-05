@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
+// 네 수의 합 = 두 수의 합의 두 수의 합
 public class Problem_Tree1_9 {
 
     public static void main(String[] args) throws IOException {
