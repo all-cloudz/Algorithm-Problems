@@ -1,4 +1,4 @@
-package problem_tree1_9;
+package problem_tree1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

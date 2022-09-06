@@ -1,4 +1,4 @@
-package problem_tree1_10;
+package problem_tree1;
 
 import java.io.*;
 import java.util.*;

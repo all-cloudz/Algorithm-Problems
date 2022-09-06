@@ -1,4 +1,4 @@
-package problem_tree1_11;
+package problem_tree1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Problem_Tree1_12_Sol2 {
+public class Problem_Tree1_11_Sol2 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
