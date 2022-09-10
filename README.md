@@ -85,6 +85,7 @@ Silver 5 : 2628, https://www.acmicpc.net/problem/2628 　★★★
 Silver 3 : 3273, https://www.acmicpc.net/problem/3273 　★  
 Silver 2 : 18870, https://www.acmicpc.net/problem/18870 　★★★★★  
 Gold 5 : 18869, https://www.acmicpc.net/problem/18869 　★★★★★  
+Gold 4 : 2370, https://www.acmicpc.net/problem/2370 　★★★★★  
 
 ### Tree
 #### Make Tree
