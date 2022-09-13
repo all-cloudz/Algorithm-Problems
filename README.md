@@ -136,7 +136,8 @@ Gold 2 : 2352, https://www.acmicpc.net/problem/2352 　★★★★
 Platinum 5 : 14003, https://www.acmicpc.net/problem/14003 　★★★★★  
 
 #### Longest Common Subsequence (LCS)
-Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★
+Gold 5 : 9251, https://www.acmicpc.net/problem/9251 　★★★★  
+Gold 4 : 9252, https://www.acmicpc.net/problem/9252 　★★★★★  
 
 ### Greedy
 Silver 4 : 11399, https://www.acmicpc.net/problem/11399 　★★  
