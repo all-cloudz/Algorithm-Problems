@@ -231,6 +231,7 @@ D4 (stack) : 1218, https://han.gl/yCBVr 　★★★
 
 #### Implementation
 D3 : 4047, https://url.kr/6usoxg 　★  
+D3 : 15230, https://han.gl/GVDgt 　★  
 D4 : 5644, https://han.gl/oTveZ 　★★★★★  
 D4 : 2117, https://han.gl/kSSTn 　★★★★★  
 
@@ -246,7 +247,8 @@ D4 : 14450, https://han.gl/FuIYs 　★★★
 D4 : 14695, https://han.gl/ZBidh 　★  
 
 ### Tree
-D4 : 1233, https://han.gl/kxKOf 　★  
+D4 : 1233, https://han.gl/kxKOf 　★    
+D4 : 15231, https://han.gl/bKSXY 　★  
 
 #### Union-Find
 D4 : 3289, https://han.gl/whHRm 　★★  
