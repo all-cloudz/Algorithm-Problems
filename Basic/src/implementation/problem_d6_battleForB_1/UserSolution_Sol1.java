@@ -2,9 +2,7 @@ package implementation.problem_d6_battleForB_1;
 
 import java.util.*;
 
-import java.util.Scanner;
-
-class UserSolution {
+class UserSolution_Sol1 {
 
     static class SearchLog {
         int time;
@@ -16,8 +14,38 @@ class UserSolution {
         }
     }
 
+    static class Pair {
+        String prevWord;
+        String correctWord;
+
+        public Pair(String prevWord, String correctWord) {
+            this.prevWord = prevWord;
+            this.correctWord = correctWord;
+        }
+
+        @Override
+        public int hashCode() {
+            return this.prevWord.hashCode() ^ this.correctWord.hashCode();
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) {
+                return true;
+            }
+
+            if (!(o instanceof Pair)) {
+                return false;
+            }
+
+            Pair that = (Pair) o;
+            return this.prevWord.equals(that.prevWord) && this.correctWord.equals(that.correctWord);
+        }
+    }
+
     SearchLog[] searchLogs;
-    Map<String, Map<String, Set<Integer>>> databaseForPair;
+    Map<Pair, Set<Integer>> candidates;
+    Map<String, Set<String>> correctsMap;
 
     void init(int n) {
         searchLogs = new SearchLog[n + 1];
@@ -25,7 +53,8 @@ class UserSolution {
             searchLogs[i] = new SearchLog(-20, null);
         }
 
-        databaseForPair = new HashMap<>();
+        candidates = new HashMap<>();
+        correctsMap = new HashMap<>();
     }
 
     int search(int mId, int searchTimestamp, char[] searchWord, char[][] correctWord) {
@@ -36,14 +65,14 @@ class UserSolution {
         int cnt = setCorrectWord(searchWord, correctWord);
 
         if (searchTimestamp - prevTime <= 10 && isEditable(prevWord, searchWord)) {
-            String prevStr = String.valueOf(prevWord);
-            String searchStr = String.valueOf(searchWord);
+            Pair key = new Pair(String.valueOf(prevWord), String.valueOf(searchWord));
+            candidates.putIfAbsent(key, new HashSet<>());
+            candidates.get(key).add(mId);
 
-            databaseForPair.putIfAbsent(prevStr, new HashMap<>());
-            Map<String, Set<Integer>> correctWordsMap = databaseForPair.get(prevStr);
-
-            correctWordsMap.putIfAbsent(searchStr, new HashSet<>());
-            correctWordsMap.get(searchStr).add(mId);
+            if (candidates.get(key).size() == 3) {
+                correctsMap.putIfAbsent(key.prevWord, new HashSet<>());
+                correctsMap.get(key.prevWord).add(key.correctWord);
+            }
         }
 
         searchLogs[mId] = new SearchLog(searchTimestamp, searchWord);
@@ -51,16 +80,12 @@ class UserSolution {
     }
 
     int setCorrectWord(char[] searchWord, char[][] correctWord) {
+        String searchStr = String.valueOf(searchWord);
         int cnt = 0;
 
-        String searchStr = String.valueOf(searchWord);
-        if (databaseForPair.containsKey(searchStr)) {
-            Map<String, Set<Integer>> correctWordsMap = databaseForPair.get(searchStr);
-
-            for (String correctStr : correctWordsMap.keySet()) {
-                if (correctWordsMap.get(correctStr).size() >= 3) {
-                    correctWord[cnt++] = correctStr.toCharArray();
-                }
+        if (correctsMap.containsKey(searchStr)) {
+            for (String cur : correctsMap.get(searchStr)) {
+                correctWord[cnt++] = cur.toCharArray();
             }
         }
 
@@ -129,11 +154,11 @@ class UserSolution {
 
 }
 
-class Solution {
+class Solution_Sol1 {
 
     private static int n, m;
 
-    private final static UserSolution usersolution = new UserSolution();
+    private final static UserSolution_Sol1 usersolution = new UserSolution_Sol1();
 
     private static char[][] words = new char[4000][11];
 
@@ -237,4 +262,5 @@ class Solution {
             }
         }
     }
+
 }

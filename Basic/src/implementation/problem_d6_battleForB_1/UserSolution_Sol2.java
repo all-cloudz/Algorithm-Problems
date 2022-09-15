@@ -2,8 +2,9 @@ package implementation.problem_d6_battleForB_1;
 
 import java.util.*;
 
-// 코드가 잘못된 것은 없는 것 같고 아마 SWEA에서 해시코드 오버라이딩을 통한 풀이를 제대로 지원하지 않는 것 같다. 가끔 이렇게 됐다가 안 됐다가 하는걸 보면... 그냥 오버라이딩 하지 말자...
-class UserSolution_Fail {
+import java.util.Scanner;
+
+class UserSolution_Sol2 {
 
     static class SearchLog {
         int time;
@@ -15,37 +16,8 @@ class UserSolution_Fail {
         }
     }
 
-    static class Pair {
-        String prevWord;
-        String correctWord;
-
-        public Pair(String prevWord, String correctWord) {
-            this.prevWord = prevWord;
-            this.correctWord = correctWord;
-        }
-
-        @Override
-        public int hashCode() {
-            return this.prevWord.hashCode() ^ this.correctWord.hashCode();
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) {
-                return true;
-            }
-
-            if (!(o instanceof Pair)) {
-                return false;
-            }
-
-            Pair that = (Pair) o;
-            return this.prevWord.equals(that.prevWord) && this.correctWord.equals(that.correctWord);
-        }
-    }
-
     SearchLog[] searchLogs;
-    Map<Pair, Set<Integer>> databaseForPair;
+    Map<String, Map<String, Set<Integer>>> databaseForPair;
 
     void init(int n) {
         searchLogs = new SearchLog[n + 1];
@@ -64,9 +36,14 @@ class UserSolution_Fail {
         int cnt = setCorrectWord(searchWord, correctWord);
 
         if (searchTimestamp - prevTime <= 10 && isEditable(prevWord, searchWord)) {
-            Pair key = new Pair(String.valueOf(prevWord), String.valueOf(searchWord));
-            databaseForPair.putIfAbsent(key, new HashSet<>());
-            databaseForPair.get(key).add(mId);
+            String prevStr = String.valueOf(prevWord);
+            String searchStr = String.valueOf(searchWord);
+
+            databaseForPair.putIfAbsent(prevStr, new HashMap<>());
+            Map<String, Set<Integer>> correctWordsMap = databaseForPair.get(prevStr);
+
+            correctWordsMap.putIfAbsent(searchStr, new HashSet<>());
+            correctWordsMap.get(searchStr).add(mId);
         }
 
         searchLogs[mId] = new SearchLog(searchTimestamp, searchWord);
@@ -76,9 +53,14 @@ class UserSolution_Fail {
     int setCorrectWord(char[] searchWord, char[][] correctWord) {
         int cnt = 0;
 
-        for (Pair key : databaseForPair.keySet()) {
-            if (databaseForPair.get(key).size() >= 3 && key.prevWord.equals(String.valueOf(searchWord))) {
-                correctWord[cnt++] = key.correctWord.toCharArray();
+        String searchStr = String.valueOf(searchWord);
+        if (databaseForPair.containsKey(searchStr)) {
+            Map<String, Set<Integer>> correctWordsMap = databaseForPair.get(searchStr);
+
+            for (String correctStr : correctWordsMap.keySet()) {
+                if (correctWordsMap.get(correctStr).size() >= 3) {
+                    correctWord[cnt++] = correctStr.toCharArray();
+                }
             }
         }
 
@@ -147,11 +129,11 @@ class UserSolution_Fail {
 
 }
 
-class Solution_Fail {
+class Solution_Sol2 {
 
     private static int n, m;
 
-    private final static UserSolution_Fail usersolution = new UserSolution_Fail();
+    private final static UserSolution_Sol2 usersolution = new UserSolution_Sol2();
 
     private static char[][] words = new char[4000][11];
 
@@ -255,5 +237,4 @@ class Solution_Fail {
             }
         }
     }
-
 }
