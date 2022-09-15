@@ -1,4 +1,4 @@
-package implementation.problem_d5_battle1;
+package implementation.problem_d5_battleForA_1;
 
 import java.io.*;
 import java.util.*;

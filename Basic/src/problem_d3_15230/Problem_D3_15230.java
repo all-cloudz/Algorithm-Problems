@@ -1,10 +1,10 @@
-package problem_battle;
+package problem_d3_15230;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Problem_D2_Battle1 {
+public class Problem_D3_15230 {
 
 
     public static void main(String[] args) throws IOException {
