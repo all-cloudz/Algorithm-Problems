@@ -103,7 +103,8 @@ Gold 4 : 4803, https://www.acmicpc.net/problem/4803 　★★★★★
 Gold 2 : 4195, https://www.acmicpc.net/problem/4195 　★★★★★
 
 #### DFS, BFS
-Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★
+Gold 5 : 15681, https://www.acmicpc.net/problem/15681 　★★★★★  
+Gold 2 : 1167, https://www.acmicpc.net/problem/1167 　★★★★★  
 
 #### Lowest Common Ancestor (LCA)
 Gold 4 : 3584, https://www.acmicpc.net/problem/3584 　★★★★★  
