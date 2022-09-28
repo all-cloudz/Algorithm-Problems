@@ -33,10 +33,10 @@ public class Problem_Tree1_23 {
             }
         }
 
-        int answer = 0;
         Queue<Integer> invited = new ArrayDeque<>();
         boolean[] visited = new boolean[N + 1];
 
+        int answer = 0;
         invited.offer(1);
 
         while (!invited.isEmpty()) {
@@ -57,9 +57,7 @@ public class Problem_Tree1_23 {
                     continue;
                 }
 
-                for (int member : group) {
-                    invited.add(member);
-                }
+                invited.addAll(group);
             }
         }
 
