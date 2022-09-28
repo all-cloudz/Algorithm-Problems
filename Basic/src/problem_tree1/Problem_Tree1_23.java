@@ -35,28 +35,30 @@ public class Problem_Tree1_23 {
 
         int answer = 0;
         Queue<Integer> invited = new ArrayDeque<>();
-        boolean[] discovered = new boolean[N + 1];
+        boolean[] visited = new boolean[N + 1];
 
         invited.offer(1);
-        discovered[1] = true;
 
         while (!invited.isEmpty()) {
             int cur = invited.poll();
+
+            if (visited[cur]) {
+                continue;
+            }
+
+            visited[cur] = true;
             answer++;
 
             for (int groupIdx : adjList.get(cur)) {
                 Set<Integer> group = groups.get(groupIdx);
                 group.remove(cur);
 
-                if (group.size() == 1) {
-                    for (int member : group) {
-                        if (discovered[member]) {
-                            break;
-                        }
+                if (group.size() != 1) {
+                    continue;
+                }
 
-                        invited.add(member);
-                        discovered[member] = true;
-                    }
+                for (int member : group) {
+                    invited.add(member);
                 }
             }
         }
