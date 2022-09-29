@@ -122,9 +122,12 @@ Silver 5: 1010, https://www.acmicpc.net/problem/1010 　★★★
 Silver 3 : 1003, https://www.acmicpc.net/problem/1003 　★★  
 Silver 3 : 1904, https://www.acmicpc.net/problem/1904 　★★★  
 Silver 3 : 9461, https://www.acmicpc.net/problem/9461 　★★  
+Silver 3 : 1463, https://www.acmicpc.net/problem/1463 　★★★  
 Silver 2 : 9184, https://www.acmicpc.net/problem/9184 　★★★  
 Silver 2 : 1912, https://www.acmicpc.net/problem/1912 　★★★  
 Silver 1 : 11057, https://www.acmicpc.net/problem/11057 　★★★★★    
+Silver 1 : 1697, https://www.acmicpc.net/problem/1697 　★★★  
+Gold 5 : 13549, https://www.acmicpc.net/problem/13549 　★★★  
 Gold 4 : 11054, https://www.acmicpc.net/problem/11054 　★★★★★  
 Gold 3 : 11066, https://www.acmicpc.net/problem/11066 　★★★★★  
 Platinum 2 : 13974, https://www.acmicpc.net/problem/13974 　★  
@@ -160,7 +163,6 @@ Gold 2: 3109, https://www.acmicpc.net/problem/3109 　★★★★★
 ### Graph
 #### DFS, BFS
 Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
-Silver 1 : 1697, https://www.acmicpc.net/problem/1697 　★★★  
 Gold 5 : 13023, https://www.acmicpc.net/problem/13023 　★★★★★  
 Gold 5 : 7576, https://www.acmicpc.net/problem/7576 　★★★★  
 Gold 5 : 7569, https://www.acmicpc.net/problem/7569 　★★★★★  
