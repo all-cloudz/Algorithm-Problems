@@ -173,6 +173,7 @@ Gold 4 : 3055, https://www.acmicpc.net/problem/3055 　★★★★★
 Gold 4 : 17471, https://www.acmicpc.net/problem/17471 　★★★★★  
 Gold 3 : 16236, https://www.acmicpc.net/problem/16236 　★★★★★  
 Gold 3 : 14442, https://www.acmicpc.net/problem/14442 　★★★★★  
+Gold 3 : 1600, https://www.acmicpc.net/problem/1600 　★★★★★  
 Gold 1 : 9328, https://www.acmicpc.net/problem/9328 　★★★★★  
 
 #### Topological Sort
