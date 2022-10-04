@@ -52,6 +52,7 @@ Bronze 1 : 2669, https://www.acmicpc.net/problem/2669 　★★★
 Bronze 1 : 2563, https://www.acmicpc.net/problem/2563 　★  
 Bronze 1 : 10163, https://www.acmicpc.net/problem/10163 　★★  
 Bronze 1 : 14696, https://www.acmicpc.net/problem/14696 　★  
+Silver 4 : 10157, https://www.acmicpc.net/problem/10157 　★  
 Silver 3 : 15501, https://www.acmicpc.net/problem/15501 　★★  
 Silver 3 : 1244, https://www.acmicpc.net/problem/1244 　★★  
 Silver 2 : 2615, https://www.acmicpc.net/problem/2615 　★★★  
@@ -171,6 +172,7 @@ Gold 5 : 10026, https://www.acmicpc.net/problem/10026 　★★★
 Gold 4 : 2206, https://www.acmicpc.net/problem/2206 　★★★  
 Gold 4 : 3055, https://www.acmicpc.net/problem/3055 　★★★★★  
 Gold 4 : 17471, https://www.acmicpc.net/problem/17471 　★★★★★  
+Gold 4 : 14502, https://www.acmicpc.net/problem/14502 　★★★  
 Gold 3 : 16236, https://www.acmicpc.net/problem/16236 　★★★★★  
 Gold 3 : 14442, https://www.acmicpc.net/problem/14442 　★★★★★  
 Gold 3 : 1600, https://www.acmicpc.net/problem/1600 　★★★★★  
@@ -274,6 +276,7 @@ D4 : 1226, https://han.gl/nUUEr 　★★
 D4 : 1227, https://han.gl/hrIjE 　★★★★  
 D4 : 1238, https://han.gl/FURBB 　★★★★★  
 D4 : 1953, https://han.gl/vQPfO 　★★★★  
+D5 : 5656, https://han.gl/vWycU 　★★★★  
 
 #### The Shortest Path
 D4 : 1249, https://han.gl/eVHPZ 　★★★★  
