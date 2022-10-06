@@ -166,6 +166,7 @@ Gold 2: 3109, https://www.acmicpc.net/problem/3109 　★★★★★
 ### Graph
 #### DFS, BFS
 Silver 2 : 1260, https://www.acmicpc.net/problem/1260 　★★★★★  
+Silver 1 : 9205, https://www.acmicpc.net/problem/9205 　★★★  
 Gold 5 : 13023, https://www.acmicpc.net/problem/13023 　★★★★★  
 Gold 5 : 7576, https://www.acmicpc.net/problem/7576 　★★★★  
 Gold 5 : 7569, https://www.acmicpc.net/problem/7569 　★★★★★  
@@ -174,6 +175,7 @@ Gold 4 : 2206, https://www.acmicpc.net/problem/2206 　★★★
 Gold 4 : 3055, https://www.acmicpc.net/problem/3055 　★★★★★  
 Gold 4 : 17471, https://www.acmicpc.net/problem/17471 　★★★★★  
 Gold 4 : 14502, https://www.acmicpc.net/problem/14502 　★★★  
+Gold 4 : 2636, https://www.acmicpc.net/problem/2636 　★★★★★  
 Gold 3 : 16236, https://www.acmicpc.net/problem/16236 　★★★★★  
 Gold 3 : 14442, https://www.acmicpc.net/problem/14442 　★★★★★  
 Gold 3 : 1600, https://www.acmicpc.net/problem/1600 　★★★★★  
@@ -283,7 +285,8 @@ D4 : 1953, https://han.gl/vQPfO 　★★★★
 D5 : 5656, https://han.gl/vWycU 　★★★★  
 
 #### The Shortest Path
-D4 : 1249, https://han.gl/eVHPZ 　★★★★  
+D4(Dijkstra) : 1249, https://han.gl/eVHPZ 　★★★★  
+D6(Floyd-Warshall) : 1263, https://han.gl/EaBkC 　★★  
 
 #### Minimum Spanning Tree (MST)
 D4 : 3124, https://han.gl/GGhzT 　★★★★  
