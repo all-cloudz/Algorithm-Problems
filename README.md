@@ -182,6 +182,7 @@ Gold 3 : 1600, https://www.acmicpc.net/problem/1600 　★★★★★
 Gold 1 : 9328, https://www.acmicpc.net/problem/9328 　★★★★★  
 Gold 1 : 1194, https://www.acmicpc.net/problem/1194 　★★★★★  
 Gold 1 : 17143, https://www.acmicpc.net/problem/17143 　★★★★★  
+Gold 1: 17472, https://www.acmicpc.net/problem/17472 　★★★★★  
 
 #### Topological Sort
 Gold 3 : 2252, https://www.acmicpc.net/problem/2252 　★★★  
@@ -201,6 +202,7 @@ Gold 4(Dijkstra) : 4485, https://www.acmicpc.net/problem/4485 　★★★★
 Gold 4(Bellman-Ford) : 11657, https://www.acmicpc.net/problem/11657 　★★★★  
 Gold 4(Floyd-Warshall) : 11404, https://www.acmicpc.net/problem/11404 　★★★★  
 Gold 4(Floyd-Warshall) : 1956, https://www.acmicpc.net/problem/11404 　★★★  
+Gold 4(Floyd-Warshall) : 2458, https://www.acmicpc.net/problem/2458 　★★★★  
 Gold 1(Floyd-Warshall) : 23258, https://www.acmicpc.net/problem/23258 　★★  
 
 #### Traveling Salesman Problem (TSP)
@@ -248,6 +250,7 @@ D3 : 4047, https://url.kr/6usoxg 　★
 D3 : 15230, https://han.gl/GVDgt 　★  
 D4 : 5644, https://han.gl/oTveZ 　★★★★★  
 D4 : 2117, https://han.gl/kSSTn 　★★★★★  
+D6 : 4013, https://han.gl/gmKNw 　★★★★★  
 
 #### Backtracking
 D3 : 9229, https://han.gl/nJLad 　★★★  
@@ -285,7 +288,7 @@ D4 : 1953, https://han.gl/vQPfO 　★★★★
 D5 : 5656, https://han.gl/vWycU 　★★★★  
 
 #### The Shortest Path
-D4(Dijkstra) : 1249, https://han.gl/eVHPZ 　★★★★  
+D4(Dijkstra) : 1249, https://han.gl/eVHPZ 　★★★★
 D6(Floyd-Warshall) : 1263, https://han.gl/EaBkC 　★★  
 
 #### Minimum Spanning Tree (MST)
