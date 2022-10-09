@@ -182,7 +182,6 @@ Gold 3 : 1600, https://www.acmicpc.net/problem/1600 　★★★★★
 Gold 1 : 9328, https://www.acmicpc.net/problem/9328 　★★★★★  
 Gold 1 : 1194, https://www.acmicpc.net/problem/1194 　★★★★★  
 Gold 1 : 17143, https://www.acmicpc.net/problem/17143 　★★★★★  
-Gold 1: 17472, https://www.acmicpc.net/problem/17472 　★★★★★  
 
 #### Topological Sort
 Gold 3 : 2252, https://www.acmicpc.net/problem/2252 　★★★  
@@ -193,6 +192,7 @@ Gold 1 : 3665, https://www.acmicpc.net/problem/3665 　★★★
 Gold 4 : 1197, https://www.acmicpc.net/problem/1197 　★★★  
 Gold 4 : 1922, https://www.acmicpc.net/problem/1922 　★★★★  
 Gold 2 : 10423, https://www.acmicpc.net/problem/10423 　★★★★  
+Gold 1: 17472, https://www.acmicpc.net/problem/17472 　★★★★★
 
 #### The Shortest Path
 Gold 5(Dijkstra) : 1753, https://www.acmicpc.net/problem/1753 　★★★★  
