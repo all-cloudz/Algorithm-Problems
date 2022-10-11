@@ -25,6 +25,7 @@ Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★
 Silver 2 (sliding window) : 12891, https://www.acmicpc.net/problem/12891 　★★★★★  
 Silver 1 (priority queue) : 11286, https://www.acmicpc.net/problem/11286 　★★  
 Gold 4 (sliding window) : 1806, https://www.acmicpc.net/problem/1806 　★★★  
+Gold 4 (sliding window) : 15961, https://www.acmicpc.net/problem/15961 　★★★★★  
 Gold 5 (stack) : 2493, https://www.acmicpc.net/problem/2493 　★★★★★  
 Gold 2 (priority queue) : 1665, https://www.acmicpc.net/problem/1655 　★★  
 
@@ -250,6 +251,7 @@ D3 : 4047, https://url.kr/6usoxg 　★
 D3 : 15230, https://han.gl/GVDgt 　★  
 D4 : 5644, https://han.gl/oTveZ 　★★★★★  
 D4 : 2117, https://han.gl/kSSTn 　★★★★★  
+D5 : 4014, https://han.gl/UWJsm 　★★  
 D6 : 4013, https://han.gl/gmKNw 　★★★★★  
 
 #### Backtracking
