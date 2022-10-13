@@ -262,8 +262,10 @@ D4 : 3234, https://han.gl/HxBtg 　★★★★★
 D5 : 1767, https://han.gl/hLAqs 　★★★★★
 
 #### Math
+D3 : 5607, https://han.gl/hEsxq 　★★★  
 D4 : 14450, https://han.gl/FuIYs 　★★★  
 D4 : 14695, https://han.gl/ZBidh 　★  
+D5 : 3238, https://han.gl/EKSvN 　★★  
 
 ### Tree
 D4 : 1233, https://han.gl/kxKOf 　★    
@@ -290,8 +292,8 @@ D4 : 1953, https://han.gl/vQPfO 　★★★★
 D5 : 5656, https://han.gl/vWycU 　★★★★  
 
 #### The Shortest Path
-D4(Dijkstra) : 1249, https://han.gl/eVHPZ 　★★★★
-D6(Floyd-Warshall) : 1263, https://han.gl/EaBkC 　★★  
+D4 (Dijkstra) : 1249, https://han.gl/eVHPZ 　★★★★
+D6 (Floyd-Warshall) : 1263, https://han.gl/EaBkC 　★★  
 
 #### Minimum Spanning Tree (MST)
 D4 : 3124, https://han.gl/GGhzT 　★★★★  
