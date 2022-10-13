@@ -1,4 +1,4 @@
-package problem_d4_14695;
+package math.problem_d4_14695;
 
 import java.io.*;
 import java.util.*;
