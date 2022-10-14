@@ -196,18 +196,19 @@ Gold 2 : 10423, https://www.acmicpc.net/problem/10423 　★★★★
 Gold 1: 17472, https://www.acmicpc.net/problem/17472 　★★★★★
 
 #### The Shortest Path
-Gold 5(Dijkstra) : 1753, https://www.acmicpc.net/problem/1753 　★★★★  
-Gold 5(Dijkstra) : 1916, https://www.acmicpc.net/problem/1916 　★★★    
-Gold 4(Dijkstra) : 1504, https://www.acmicpc.net/problem/1504 　★★  
-Gold 4(Dijkstra) : 4485, https://www.acmicpc.net/problem/4485 　★★★★  
-Gold 4(Bellman-Ford) : 11657, https://www.acmicpc.net/problem/11657 　★★★★  
-Gold 4(Floyd-Warshall) : 11404, https://www.acmicpc.net/problem/11404 　★★★★  
-Gold 4(Floyd-Warshall) : 1956, https://www.acmicpc.net/problem/11404 　★★★  
-Gold 4(Floyd-Warshall) : 2458, https://www.acmicpc.net/problem/2458 　★★★★  
-Gold 1(Floyd-Warshall) : 23258, https://www.acmicpc.net/problem/23258 　★★  
+Gold 5 (Dijkstra) : 1753, https://www.acmicpc.net/problem/1753 　★★★★  
+Gold 5 (Dijkstra) : 1916, https://www.acmicpc.net/problem/1916 　★★★    
+Gold 4 (Dijkstra) : 1504, https://www.acmicpc.net/problem/1504 　★★  
+Gold 4 (Dijkstra) : 4485, https://www.acmicpc.net/problem/4485 　★★★★  
+Gold 4 (Bellman-Ford) : 11657, https://www.acmicpc.net/problem/11657 　★★★★  
+Gold 4 (Floyd-Warshall) : 11404, https://www.acmicpc.net/problem/11404 　★★★★  
+Gold 4 (Floyd-Warshall) : 1956, https://www.acmicpc.net/problem/11404 　★★★  
+Gold 4 (Floyd-Warshall) : 2458, https://www.acmicpc.net/problem/2458 　★★★★  
+Gold 1 (Floyd-Warshall) : 23258, https://www.acmicpc.net/problem/23258 　★★  
 
 #### Traveling Salesman Problem (TSP)
 Silver 2 : 10971, https://www.acmicpc.net/problem/10971 　★★★  
+Gold 1 : 2098, https://www.acmicpc.net/problem/2098 　★★★  
 
 # Programmers
 ## Solving
