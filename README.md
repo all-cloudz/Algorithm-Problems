@@ -284,6 +284,9 @@ D5 : 1248, https://han.gl/uAHtY 　★★★★★
 D3 : 5215, https://han.gl/eYOZL 　★★★★★  
 D4 : 1861, https://han.gl/uuDaK 　★★★★★  
 
+### Greedy
+D2 : 14510, https://han.gl/uwVZp 　★★★★★  
+
 ### Graph
 #### DFS, BFS
 D4 : 1226, https://han.gl/nUUEr 　★★  
