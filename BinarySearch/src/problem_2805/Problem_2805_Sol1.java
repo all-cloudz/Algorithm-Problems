@@ -2,7 +2,7 @@ package problem_2805;
 
 import java.util.Scanner;
 
-public class Problem_2805 {
+public class Problem_2805_Sol1 {
     private static int N;
     private static int M;
     private static int[] trees;
