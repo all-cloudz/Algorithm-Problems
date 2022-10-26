@@ -48,6 +48,7 @@ Platinum 5 : 2967, https://www.acmicpc.net/problem/2967 　★★★★
 
 #### String
 Gold 4 : 9935, https://www.acmicpc.net/problem/9935 　★★★★  
+Platinum 3 : 3033, https://www.acmicpc.net/problem/status/3033/1002/1 　★★★★★  
 
 #### Implementation
 Bronze 2 : 2605, https://www.acmicpc.net/problem/2605 　★  
