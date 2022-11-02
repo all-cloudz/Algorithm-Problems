@@ -1,4 +1,4 @@
-package problem_3033;
+package string.problem_3033;
 
 import java.io.BufferedReader;
 import java.io.IOException;
