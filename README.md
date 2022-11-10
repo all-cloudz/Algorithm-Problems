@@ -139,6 +139,7 @@ Gold 5 : 17070, https://www.acmicpc.net/problem/17070 　★★★★★
 Gold 4 : 11054, https://www.acmicpc.net/problem/11054 　★★★★★  
 Gold 3 : 11066, https://www.acmicpc.net/problem/11066 　★★★★★  
 Gold 3 : 1520, https://www.acmicpc.net/problem/1520 　★★★★★  
+Gold 1 : 1231, https://www.acmicpc.net/problem/1231 　★★★★★  
 Platinum 2 : 13974, https://www.acmicpc.net/problem/13974 　★  
 
 #### Knapsack Problem
