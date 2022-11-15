@@ -31,20 +31,26 @@ public class Problem_1107 {
             checkBroken(tokenizer);
         }
 
-        channels:
         for (int i = 0; i <= 1_000_000; i++) {
             String converted = String.valueOf(i);
+            int pressCount = converted.length() + Math.abs(N - i);
 
-            for (char cur : converted.toCharArray()) {
-                if (!usable[cur - '0']) {
-                    continue channels;
-                }
+            if (minPressCount > pressCount && canPress(converted)) {
+                minPressCount = pressCount;
             }
-
-            minPressCount = Math.min(minPressCount, converted.length() + Math.abs(N - i));
         }
 
         System.out.println(minPressCount);
+    }
+
+    private static boolean canPress(String converted) {
+        for (char cur : converted.toCharArray()) {
+            if (!usable[cur - '0']) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     private static void checkBroken(StringTokenizer tokenizer) {
