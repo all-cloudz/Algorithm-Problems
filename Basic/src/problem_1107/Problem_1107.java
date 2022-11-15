@@ -32,25 +32,33 @@ public class Problem_1107 {
         }
 
         for (int i = 0; i <= 1_000_000; i++) {
-            String converted = String.valueOf(i);
-            int pressCount = converted.length() + Math.abs(N - i);
+            int pressCount = canPress(i);
 
-            if (minPressCount > pressCount && canPress(converted)) {
-                minPressCount = pressCount;
+            if (pressCount > 0) {
+                minPressCount = Math.min(minPressCount, pressCount + Math.abs(N - i));
             }
         }
 
         System.out.println(minPressCount);
     }
 
-    private static boolean canPress(String converted) {
-        for (char cur : converted.toCharArray()) {
-            if (!usable[cur - '0']) {
-                return false;
-            }
+    private static int canPress(int i) {
+        int pressCount = 0;
+
+        if (i == 0 && usable[i]) {
+            pressCount++;
         }
 
-        return true;
+        while (i > 0) {
+            if (!usable[i % 10]) {
+                return 0;
+            }
+
+            pressCount++;
+            i /= 10;
+        }
+
+        return pressCount;
     }
 
     private static void checkBroken(StringTokenizer tokenizer) {
