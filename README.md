@@ -234,6 +234,9 @@ Lv.1 (stack) : 크레인 인형뽑기 게임, https://programmers.co.kr/learn/co
 Lv.2 (recursive) : 문자열 압축, https://programmers.co.kr/learn/courses/30/lessons/60057 　★★★★  
 Lv.2 (prime number) : k진수에서 소수 개수 구하기, https://school.programmers.co.kr/learn/courses/30/lessons/92335 　★★  
 
+#### Implementation
+Lv.2 : 주차 요금 계산, https://school.programmers.co.kr/learn/courses/30/lessons/92341 　★★★  
+
 ### Binary Search
 Lv.3 : 입국심사, https://programmers.co.kr/learn/courses/30/lessons/43238 　★★★  
 Lv.4 : 징검다리, https://programmers.co.kr/learn/courses/30/lessons/43236 　★★★
