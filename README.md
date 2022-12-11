@@ -74,7 +74,8 @@ Platinum 4 : 3025, https://www.acmicpc.net/problem/3025 　★★★★★
 
 ### Divide and Conquer
 Silver 3 : 2630, https://www.acmicpc.net/problem/2630 　★★  
-Silver 1 : 1992, https://www.acmicpc.net/problem/1992 　★★★★
+Silver 1 : 1992, https://www.acmicpc.net/problem/1992 　★★★★  
+Silver 1 : 1629, https://www.acmicpc.net/problem/1629 　★★  
 
 ### Binary Search
 #### find target
