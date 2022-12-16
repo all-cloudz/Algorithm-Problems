@@ -215,6 +215,7 @@ Gold 4 (Floyd-Warshall) : 11404, https://www.acmicpc.net/problem/11404 　★★
 Gold 4 (Floyd-Warshall) : 1956, https://www.acmicpc.net/problem/11404 　★★★  
 Gold 4 (Floyd-Warshall) : 2458, https://www.acmicpc.net/problem/2458 　★★★★  
 Gold 3 (Dijkstra) : 11779, https://www.acmicpc.net/problem/11779 　★★★★★  
+Gold 3 (Bellman-Ford) : 1865, https://www.acmicpc.net/problem/1865 　★★★★★  
 Gold 1 (Floyd-Warshall) : 23258, https://www.acmicpc.net/problem/23258 　★★  
 
 #### Traveling Salesman Problem (TSP)
