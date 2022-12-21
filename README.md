@@ -70,6 +70,7 @@ Gold 4 : 15683, https://www.acmicpc.net/problem/15683 　★★★★
 Gold 4 : 17144, https://www.acmicpc.net/problem/17144 　★★★  
 Gold 3 : 17135, https://www.acmicpc.net/problem/17135 　★★★★★  
 Gold 2 : 2931, https://www.acmicpc.net/problem/2931 　★★★  
+Gold 2 : 1918, https://www.acmicpc.net/problem/1918 　★★★  
 Platinum 4 : 3025, https://www.acmicpc.net/problem/3025 　★★★★★  
 
 ### Divide and Conquer
