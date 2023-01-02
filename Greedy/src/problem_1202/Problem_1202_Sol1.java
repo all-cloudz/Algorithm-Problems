@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class Problem_1202 {
+public class Problem_1202_Sol1 {
 
     private static class Jewel implements Comparable<Jewel> {
 
