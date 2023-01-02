@@ -178,6 +178,7 @@ Gold 4 : 2141, https://www.acmicpc.net/problem/2141 　★★
 Gold 3 : 18768, https://www.acmicpc.net/problem/18768 　★★★★★  
 Gold 2 : 1781, https://www.acmicpc.net/problem/1781 　★★★★★  
 Gold 2: 3109, https://www.acmicpc.net/problem/3109 　★★★★★  
+Gold 2: 1202, https://www.acmicpc.net/problem/1202 　★★★★★  
 
 ### Graph
 #### DFS, BFS
