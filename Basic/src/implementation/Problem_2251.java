@@ -41,7 +41,7 @@ public class Problem_2251 {
         }
 
         if (A == 0) {
-            answer.add(C);
+            catched.add(C);
         }
 
         visited[A][B] = true;
