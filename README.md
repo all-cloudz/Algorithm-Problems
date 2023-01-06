@@ -196,6 +196,7 @@ Gold 4 : 3055, https://www.acmicpc.net/problem/3055 　★★★★★
 Gold 4 : 17471, https://www.acmicpc.net/problem/17471 　★★★★★  
 Gold 4 : 14502, https://www.acmicpc.net/problem/14502 　★★★  
 Gold 4 : 2636, https://www.acmicpc.net/problem/2636 　★★★★★  
+Gold 4 : 13913, https://www.acmicpc.net/problem/13913 　★★★  
 Gold 3 : 16236, https://www.acmicpc.net/problem/16236 　★★★★★  
 Gold 3 : 14442, https://www.acmicpc.net/problem/14442 　★★★★★  
 Gold 3 : 1600, https://www.acmicpc.net/problem/1600 　★★★★★  
