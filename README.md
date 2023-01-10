@@ -107,7 +107,8 @@ Gold 5 : 1068, https://www.acmicpc.net/problem/1068 　★★★
 
 #### Binary Tree
 Silver 1 : 1991, https://www.acmicpc.net/problem/1991 　★★★  
-Gold 5 : 5639, https://www.acmicpc.net/problem/5639 　★★★★★
+Gold 5 : 5639, https://www.acmicpc.net/problem/5639 　★★★★★  
+Gold 2 : 2263, https://www.acmicpc.net/problem/2263 　★★★  
 
 #### Union Find
 Gold 4 : 1717, https://www.acmicpc.net/problem/1717 　★★★  
