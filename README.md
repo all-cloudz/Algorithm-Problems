@@ -25,10 +25,11 @@ Silver 2 (priority queue) : 1927, https://www.acmicpc.net/problem/1927 　★★
 Silver 2 (sliding window) : 12891, https://www.acmicpc.net/problem/12891 　★★★★★  
 Silver 1 (priority queue) : 11286, https://www.acmicpc.net/problem/11286 　★★  
 Gold 5 (brute force) : 1107, https://www.acmicpc.net/problem/1107 　★★  
+Gold 5 (stack) : 2493, https://www.acmicpc.net/problem/2493 　★★★★★  
 Gold 4 (sliding window) : 1806, https://www.acmicpc.net/problem/1806 　★★★  
 Gold 4 (sliding window) : 15961, https://www.acmicpc.net/problem/15961 　★★★★★  
 Gold 4 (slope) : 1027, https://www.acmicpc.net/problem/1027 　★  
-Gold 5 (stack) : 2493, https://www.acmicpc.net/problem/2493 　★★★★★  
+Gold 4 (brute force) : 1034, https://www.acmicpc.net/problem/1034 　★★  
 Gold 2 (priority queue) : 1665, https://www.acmicpc.net/problem/1655 　★★  
 Gold 1 (prime number) : 1016, https://www.acmicpc.net/problem/1016 　★  
 
