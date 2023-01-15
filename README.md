@@ -31,6 +31,7 @@ Gold 4 (sliding window) : 15961, https://www.acmicpc.net/problem/15961 　★★
 Gold 4 (slope) : 1027, https://www.acmicpc.net/problem/1027 　★  
 Gold 4 (brute force) : 1034, https://www.acmicpc.net/problem/1034 　★★  
 Gold 2 (priority queue) : 1665, https://www.acmicpc.net/problem/1655 　★★  
+Gold 2 (matrix) : 11444,  https://www.acmicpc.net/problem/11444 　★  
 Gold 1 (prime number) : 1016, https://www.acmicpc.net/problem/1016 　★  
 
 #### Backtracking
