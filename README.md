@@ -284,6 +284,7 @@ D6 : 14454,  https://han.gl/PbEfR 　★
 ## Solved
 ### Basic
 D4 (stack) : 1218, https://han.gl/yCBVr 　★★★  
+D2 (bitmasking) : 1288, https://han.gl/QmVEsn 　★  
 
 #### Implementation
 D3 : 4047, https://url.kr/6usoxg 　★  
