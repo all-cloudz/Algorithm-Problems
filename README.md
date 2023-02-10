@@ -312,7 +312,8 @@ D5 : 3238, https://han.gl/EKSvN 　★★
 ### Tree
 D4 : 1233, https://han.gl/kxKOf 　★    
 D4 : 15231, https://han.gl/bKSXY 　★  
-D4 : 1231, https://han.gl/pgfXxW 　★  
+D4 : 1231, https://han.gl/pgfXxW 　★★★  
+D4 : 1248, https://han.gl/wmfPFd 　★★★  
 
 #### Union-Find
 D4 : 3289, https://han.gl/whHRm 　★★  
