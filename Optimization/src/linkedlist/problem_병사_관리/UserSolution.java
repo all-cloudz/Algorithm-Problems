@@ -1,4 +1,4 @@
-package problem_병사_관리;
+package linkedlist.problem_병사_관리;
 
 public class UserSolution {
 
