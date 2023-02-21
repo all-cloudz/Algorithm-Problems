@@ -268,6 +268,7 @@ Lv.1 : K번째 수, https://programmers.co.kr/learn/courses/30/lessons/42748 　
 
 ### Graph
 Lv.1 : 신고 결과 받기, https://programmers.co.kr/learn/courses/30/lessons/92334 　★★★  
+Lv.2 : 미로 탈출, 
 
 ### Optimization
 Lv.3 : 파괴되지 않은 건물, https://school.programmers.co.kr/learn/courses/30/lessons/92344 　★★★★★  
