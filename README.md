@@ -328,10 +328,10 @@ D4 : 7465, https://han.gl/FNgXN 　★★
 D5 : 1248, https://han.gl/uAHtY 　★★★★★
 
 ### Dynamic Programming (DP)
-#### Memoization
+D3 : 3304, https://han.gl/mLKre 　★★
 D3 : 5215, https://han.gl/eYOZL 　★★★★★  
 D4 : 1861, https://han.gl/uuDaK 　★★★★★  
-D4 : 3316, https://han.gl/IoyhCO 　★★★★★  
+D4 : 3316, https://han.gl/IoyhCO 　★★★★★
 
 ### Greedy
 D2 : 14510, https://han.gl/uwVZp 　★★★★★  
