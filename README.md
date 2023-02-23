@@ -353,4 +353,7 @@ D6 (Floyd-Warshall) : 1263, https://han.gl/EaBkC 　★★
 D4 : 3124, https://han.gl/GGhzT 　★★★★  
 
 #### Traveling Salesman Problem (TSP)
-D5 : 1247, https://han.gl/rXgaC 　★★★
+D5 : 1247, https://han.gl/rXgaC 　★★★  
+
+### Optimization
+D3: 2948, https://han.gl/LjBqtZ 　★★★★★  
