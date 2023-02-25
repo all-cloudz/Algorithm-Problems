@@ -16,15 +16,15 @@ public class Problem_3033 {
         }
     }
 
-    private static final int POW = 31;
+    private static final int BASE = 31;
     private static final int[] cache;
 
     static {
         cache = new int[200_001];
-        cache[1] = POW;
+        cache[1] = BASE;
 
         for (int i = 2; i < 200_001; i++) {
-            cache[i] = cache[i - 1] * POW;
+            cache[i] = cache[i - 1] * BASE;
         }
     }
 
@@ -62,19 +62,19 @@ public class Problem_3033 {
 
     private static boolean check(String str, int mid) {
         Node[] hashToString = new Node[1 << 16];
-        int MOD = (1 << 16) - 1;
+        int BITS = (1 << 16) - 1;
 
         int hash = 0;
         for (int i = 0; i < mid; i++) {
-            hash = hash * POW + str.charAt(i);
+            hash = hash * BASE + str.charAt(i);
         }
-        int hIdx = hash & MOD;
+        int hIdx = hash & BITS;
         hashToString[hIdx] = new Node(0, hashToString[hIdx]);
 
         for (int len = str.length(), i = mid; i < len; i++) {
-            hash = hash * POW + str.charAt(i);
+            hash = hash * BASE + str.charAt(i);
             hash -= str.charAt(i - mid) * cache[mid];
-            hIdx = hash & MOD;
+            hIdx = hash & BITS;
 
             if (hashToString[hIdx] == null) {
                 hashToString[hIdx] = new Node(i - mid + 1, hashToString[hIdx]);
@@ -86,7 +86,6 @@ public class Problem_3033 {
                     return true;
                 }
             }
-
 
             hashToString[hIdx] = new Node(i - mid + 1, hashToString[hIdx]);
         }
