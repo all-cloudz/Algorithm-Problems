@@ -286,12 +286,16 @@ Lv.1 : 숫자 문자열과 영단어, https://programmers.co.kr/learn/courses/30
 D5 : 14452, https://han.gl/EoPqm 　★  
 D6 : 14454,  https://han.gl/PbEfR 　★  
 
+# Optimization
+D6 : 7091, https://han.gl/iksEXv 　★  
+
 ## Solved
 ### Basic
 D2 (Bitmasking) : 1288, https://han.gl/QmVEsn 　★  
 D3 (Bitmasking) : 10726, https://han.gl/SyPhhd 　★  
 D3 (LinkedList) : 1230, https://han.gl/yOiSFU 　★  
 D4 (Stack) : 1218, https://han.gl/yCBVr 　★★★  
+D4 (Sort) : 7701,  https://han.gl/ROkWbd 　★★★  
 
 #### Implementation
 D3 : 4047, https://url.kr/6usoxg 　★  
@@ -314,6 +318,9 @@ D4 : 14450, https://han.gl/FuIYs 　★★★
 D4 : 14695, https://han.gl/ZBidh 　★  
 D5 : 3238, https://han.gl/EKSvN 　★★  
 
+### Divide And Conquer
+D4 : 13736, https://han.gl/nLyRnG 　★★★  
+
 ### Tree
 D4 : 1233, https://han.gl/kxKOf 　★    
 D4 : 15231, https://han.gl/bKSXY 　★  
@@ -325,7 +332,10 @@ D4 : 3289, https://han.gl/whHRm 　★★
 D4 : 7465, https://han.gl/FNgXN 　★★  
 
 #### Least Common Ancestor (LCA)
-D5 : 1248, https://han.gl/uAHtY 　★★★★★
+D5 : 1248, https://han.gl/uAHtY 　★★★★★  
+
+#### Heap
+D4 : 3000, https://han.gl/weRXbR 　★★★★★  
 
 ### Dynamic Programming (DP)
 D3 : 3304, https://han.gl/mLKre 　★★  
@@ -343,7 +353,9 @@ D4 : 1226, https://han.gl/nUUEr 　★★
 D4 : 1227, https://han.gl/hrIjE 　★★★★  
 D4 : 1238, https://han.gl/FURBB 　★★★★★  
 D4 : 1953, https://han.gl/vQPfO 　★★★★  
+D4 : 1868, https://han.gl/jBFgIi 　★★★★★  
 D5 : 5656, https://han.gl/vWycU 　★★★★  
+D6 : 1855, https://han.gl/TkWwOR 　★★★★  
 
 #### The Shortest Path
 D4 (Dijkstra) : 1249, https://han.gl/eVHPZ 　★★★★
