@@ -34,44 +34,59 @@ public class Problem_D5_10507 {
     }
 
     private static int maxLength() {
-        int index = 0;
-        int left = studied[index] - p;
-        int right = studied[index];
-        int maxLength = p;
+        Pointer left = new Pointer(0, studied[0]);
+        Pointer right = initRight(left);
+        int maxLength = right.value - left.value;
 
-        while (left <= studied[n - 1]) {
-           if (left == studied[index]) {
-                index++;
-            } else {
-                right++;
-            }
+        while (left.value <= studied[n - 1]) {
+            moveAll(left);
+            left.value++;
 
-            if (right != studied[index]) {
-                left++;
-            }
+            right.value++;
+            moveAll(right);
 
-            maxLength = Math.max(maxLength, right - left);
+            maxLength = Math.max(maxLength, right.value - left.value);
         }
 
-        return Math.max(maxLength, right - left);
+        return maxLength;
     }
 
-//    private static int initRight() {
-//        int index = 0;
-//        int right = studied[index];
-//        int count = p;
-//
-//        while (count > 0) {
-//            if (index < n && right == studied[index]) {
-//                index++;
-//            } else {
-//                count--;
-//            }
-//
-//            right++;
-//        }
-//
-//        return right;
-//    }
+    private static Pointer initRight(Pointer left) {
+        Pointer right = new Pointer(0, studied[0]);
+        int count = right.value - left.value;
+
+        while (count <= p) {
+            moveAll(right);
+            if (count == p) {
+                break;
+            }
+
+            right.value++;
+            count++;
+        }
+
+        return right;
+    }
+
+    private static void moveAll(Pointer pointer) {
+        while (pointer.index < n && pointer.value == studied[pointer.index]) {
+            pointer.move();
+        }
+    }
+
+    private static class Pointer {
+        private int index;
+        private int value;
+
+        public Pointer(int index, int value) {
+            this.index = index;
+            this.value = value;
+        }
+
+        public void move() {
+            this.index++;
+            this.value++;
+        }
+    }
 
 }
