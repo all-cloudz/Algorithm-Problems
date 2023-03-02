@@ -317,6 +317,10 @@ D3 : 5607, https://han.gl/hEsxq 　★★★
 D4 : 14450, https://han.gl/FuIYs 　★★★  
 D4 : 14695, https://han.gl/ZBidh 　★  
 D5 : 3238, https://han.gl/EKSvN 　★★  
+D5 : 9843, https://han.gl/jXQiB 　★
+
+### BinarySearch
+D4 : 11446, https://han.gl/HqIvd 　★★★★★
 
 ### Divide And Conquer
 D4 : 13736, https://han.gl/nLyRnG 　★★★  
