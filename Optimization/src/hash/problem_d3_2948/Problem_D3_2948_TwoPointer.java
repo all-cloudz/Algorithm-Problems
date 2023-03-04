@@ -1,11 +1,11 @@
-package twopointer.problem_d3_2948;
+package hash.problem_d3_2948;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Problem_D3_2948 {
+public class Problem_D3_2948_TwoPointer {
 
     public static void main(String[] args) throws IOException {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
