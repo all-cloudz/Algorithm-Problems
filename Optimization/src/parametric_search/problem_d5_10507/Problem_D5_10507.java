@@ -1,11 +1,11 @@
-package twopointer.problem_d5_10507;
+package parametric_search.problem_d5_10507;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Problem_D5_10507_PrefixSum {
+public class Problem_D5_10507 {
 
     private static int n;
     private static int p;
