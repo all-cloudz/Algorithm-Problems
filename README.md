@@ -304,7 +304,7 @@ D4 : 5644, https://han.gl/oTveZ 　★★★★★
 D4 : 2117, https://han.gl/kSSTn 　★★★★★  
 D5 : 4014, https://han.gl/UWJsm 　★★  
 D6 : 4013, https://han.gl/gmKNw 　★★★★★  
-
+    
 #### Backtracking
 D3 : 9229, https://han.gl/nJLad 　★★★  
 D3 : 6808, https://han.gl/KxWcj 　★★★★★  
@@ -320,10 +320,11 @@ D5 : 3238, https://han.gl/EKSvN 　★★
 D5 : 9843, https://han.gl/jXQiB 　★
 
 ### BinarySearch
-D4 : 11446, https://han.gl/HqIvd 　★★★★★
+D4 : 11446, https://han.gl/HqIvd 　★★★★★  
+D4 : 8898, https://han.gl/QvZFb 　★★★★  
 
 ### Divide And Conquer
-D4 : 13736, https://han.gl/nLyRnG 　★★★  
+D4 : 13736, https://han.gl/nLyRnG 　★★★
 
 ### Tree
 D4 : 1233, https://han.gl/kxKOf 　★    
@@ -371,6 +372,10 @@ D4 : 3124, https://han.gl/GGhzT 　★★★★
 #### Traveling Salesman Problem (TSP)
 D5 : 1247, https://han.gl/rXgaC 　★★★  
 
+### Trie
+D5 : 1256, https://han.gl/mJwKjn 　★★
+
 ### Optimization
 D3: 2948, https://han.gl/LjBqtZ 　★★★★★  
 D5 : 10507, https://han.gl/bFRbE 　★★★★★  
+D5 : 9999, https://han.gl/MYPFrv 　★★★★★  
