@@ -1,4 +1,4 @@
-package implementation.Code_1차원_젠가;
+package implementation.code_1차원_젠가;
 
 import java.io.BufferedReader;
 import java.io.IOException;
