@@ -14,8 +14,8 @@ public class Code_트리의_지름_Sol1 {
 
     public static void main(String[] args) throws IOException {
         init();
-        int[] farthestInfo = getFarthestInfo(1, 0, new boolean[v + 1], new int[] { 0, 0 });
-        int[] diameterInfo = getFarthestInfo(farthestInfo[0], 0, new boolean[v + 1], new int[] { 0, 0 });
+        int[] farthestInfo = getFarthestInfo(1, 0, new boolean[v + 1]);
+        int[] diameterInfo = getFarthestInfo(farthestInfo[0], 0, new boolean[v + 1]);
         System.out.println(diameterInfo[1]);
     }
 
@@ -38,18 +38,18 @@ public class Code_트리의_지름_Sol1 {
         }
     }
 
-    private static int[] getFarthestInfo(int cur, int curSum, boolean[] visited, int[] farthestInfo) {
+    private static int[] getFarthestInfo(int cur, int curSum, boolean[] visited) {
         visited[cur] = true;
+        int[] farthestInfo = { cur, curSum };
 
         for (Node next : tree.get(cur)) {
             if (!visited[next.to]) {
-                getFarthestInfo(next.to, curSum + next.weight, visited, farthestInfo);
-            }
-        }
+                int[] info = getFarthestInfo(next.to, curSum + next.weight, visited);
 
-        if (farthestInfo[1] < curSum) {
-            farthestInfo[0] = cur;
-            farthestInfo[1] = curSum;
+                if (farthestInfo[1] < info[1]) {
+                    farthestInfo = info;
+                }
+            }
         }
 
         return farthestInfo;
