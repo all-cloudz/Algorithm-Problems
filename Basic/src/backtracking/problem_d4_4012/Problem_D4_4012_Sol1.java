@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 // 임의로 D4 난이도로 두었음, 실제로는 난이도 표기가 안 되어있음
-public class Problem_D4_4012 {
+public class Problem_D4_4012_Sol1 {
 	private static int N;
 	private static int[] foodA;
 	private static int[] foodB;
