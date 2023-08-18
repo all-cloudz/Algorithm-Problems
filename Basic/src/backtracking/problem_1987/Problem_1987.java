@@ -11,10 +11,10 @@ public class Problem_1987 {
     private static boolean[] visited;
     private static int max;
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(final String[] args) throws IOException {
+        final BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
-        StringTokenizer st = new StringTokenizer(input.readLine());
+        final StringTokenizer st = new StringTokenizer(input.readLine());
         R = Integer.parseInt(st.nextToken());
         C = Integer.parseInt(st.nextToken());
         board = new char[R][C];
@@ -30,12 +30,12 @@ public class Problem_1987 {
         System.out.println(max);
     }
 
-    private static void moveItem(int row, int col, int cnt) {
+    private static void moveItem(final int row, final int col, final int cnt) {
         visited[board[row][col]] = true;
         int nextRow, nextCol;
 
         // 네 방향 탐색
-        for (int[] move : DIRECTIONS) {
+        for (final int[] move : DIRECTIONS) {
             nextRow = row + move[0];
             nextCol = col + move[1];
 
@@ -49,17 +49,13 @@ public class Problem_1987 {
         visited[board[row][col]] = false;
     }
 
-    private static boolean isMovable(int row, int col) {
+    private static boolean isMovable(final int row, final int col) {
         // 보드를 나가면 안 돼
         if (row < 0 || row >= R || col < 0 || col >= C) {
             return false;
         }
 
         // 같은 알파벳 안 돼
-        if (visited[board[row][col]]) {
-            return false;
-        }
-
-        return true;
+        return !visited[board[row][col]];
     }
 }
